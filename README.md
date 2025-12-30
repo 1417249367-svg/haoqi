@@ -98,3 +98,25 @@ Offline files: Word, Excel, or PowerPoint files exchanged between Curious Bird R
 Group files: Word, Excel, or PowerPoint files uploaded to a group created via Qiniu Bird RTC. When opened as an online document, all group members have default editing permissions.
 
 Shared Files: Access the shared folder created via the Curious Bird RTC File Assistant (third button at the bottom of the main interface). All Word, Excel, and PowerPoint files uploaded to this folder are editable by all members by default when opened as online documents.
+
+
+
+### 3 Demo
+
+Client download address:
+http://t.rtcim.com:98/download.html
+
+Test account:
+Account:admin
+Password:123
+Network (to be filled in by the client, no need to open in the browser): t.rtcim.com
+
+Backend login address:
+http://t.rtcim.com:98/admin/account/login.html
+admin
+123
+
+Both internal and external networks can be used
+Private Cloud Deployment
+All data is stored on your own servers
+You can use any company intranet computer as a server, with the configuration of Core I5.
