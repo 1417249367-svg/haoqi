@@ -1,0 +1,11 @@
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+ALTER TABLE [dbo].[Clot_Silence] ALTER COLUMN [MyID] [varchar](50) NULL
+GO
+ALTER TABLE [dbo].[Clot_Silence] ALTER COLUMN [YouID] [varchar](50) NULL
+GO

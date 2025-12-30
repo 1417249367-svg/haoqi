@@ -1,0 +1,81 @@
+create table temp_user
+(
+  COL_ID             NUMBER(10) default 0 not null,
+  COL_LOGINNAME      VARCHAR2(50),
+  COL_NAME           VARCHAR2(50),
+  COL_PWORD          VARCHAR2(50),
+  COL_ISSUPER        NUMBER(2) default 0 not null,
+  COL_ISSYSTEM       NUMBER(2) default 0 not null,
+  COL_DISABLED       NUMBER(2) default 0 not null,
+  COL_ENTYPE         NUMBER(10) default 0,
+  COL_ISFARUSER      NUMBER(2) default 0 not null,
+  COL_FARSERVER      VARCHAR2(50),
+  COL_DOMAINID       NUMBER(10) default 0,
+  COL_ITEMINDEX      NUMBER(10) default 0,
+  COL_DT_CREATE      DATE default SYSDATE,
+  COL_CREATOR_NAME   VARCHAR2(50),
+  COL_ONLINESTATE    NUMBER(10) default 0,
+  COL_MSGSERVER      VARCHAR2(50),
+  COL_SIGNSERVER     VARCHAR2(50),
+  COL_NOTE           VARCHAR2(255),
+  COL_EMAIL          VARCHAR2(50),
+  COL_MOBILE         VARCHAR2(50),
+  COL_SEX            NUMBER(10) default 0,
+  COL_DESCRIPTION    VARCHAR2(255),
+  COL_BIRTHDAY       DATE default SYSDATE,
+  COL_H_PROVINCE     VARCHAR2(50),
+  COL_H_CITY         VARCHAR2(50),
+  COL_H_ADDRESS      VARCHAR2(64),
+  COL_H_POSTCODE     VARCHAR2(50),
+  COL_H_PHONE        VARCHAR2(50),
+  COL_H_FAX          VARCHAR2(50),
+  COL_O_COMPANYNAME  VARCHAR2(50),
+  COL_O_ADDRESS      VARCHAR2(64),
+  COL_O_POSTCODE     VARCHAR2(50),
+  COL_O_JOBTITLE     VARCHAR2(50),
+  COL_O_PHONE        VARCHAR2(50),
+  COL_O_FAX          VARCHAR2(50),
+  COL_PICTURE        VARCHAR2(100),
+  COL_ECARD          VARCHAR2(255),
+  COL_DEPTINFO       VARCHAR2(255),
+  COL_PIC_MOFIDYDATE DATE default SYSDATE,
+  COL_DEPTID         NUMBER(10) default 0,
+  COL_ISDELETE       NUMBER(2) default 0,
+  COL_USERDATA       VARCHAR2(50),
+  COL_IPADDR       VARCHAR2(255),
+  COL_HOMEPAGE       VARCHAR2(100),
+  COL_COMPANYID	    NUMBER(10) default 0,
+  COL_ONLINE	    NUMBER(10) default 0,
+  COL_DT_MODIFY     DATE default SYSDATE,
+  COL_FIRSTSPELL     VARCHAR2(64),
+  COL_ALLSPELL	     VARCHAR2(64),
+  COL_PHONEID	     VARCHAR2(64),
+  COL_ADDNUM	     NUMBER(10) default 0,
+  COL_CREATOR_ID     NUMBER(10) default 0,
+  COL_POS_IDX	     NUMBER(10) default 0,
+  COL_ALLDEPTINFO    VARCHAR2(1024)
+)
+;
+
+create sequence SEQ_temp_user
+minvalue 1
+maxvalue 999999999999999999999999999
+start with 1
+increment by 1
+cache 20;
+
+CREATE OR REPLACE TRIGGER "TRG_temp_user"
+BEFORE INSERT
+ON temp_user
+REFERENCING OLD AS OLD NEW AS NEW
+FOR EACH ROW
+
+begin
+   SELECT SEQ_temp_user.NEXTVAL
+     INTO :NEW.COL_ID
+     FROM DUAL;
+
+End TRG_temp_user;
+/
+
+CREATE INDEX IX_temp_user_1 ON temp_user(Col_LoginName);

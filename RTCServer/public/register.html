@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+机器码:<span id="MachineCode"></span>
+    <div id="inputBox">
+        <p>
+            <label>用户数量</label>
+        </p>
+        <p>
+            <label>使用时间：</label><input type="text" id="RuDate" value="0">
+        </p>
+        <p>
+            <label>用户数量：</label><input type="text" id="UserCount" value="200">
+        </p>
+        <p>
+            <label>注册编码：</label><input type="text" id="YesID">
+        </p>
+        <p>
+            <button onclick="sigin()">注册</button>
+        </p>
+    </div>
+    <div id="inputBox">
+        <p>
+            <label>聊天记录</label>
+        </p>
+        <p>
+            <label>使用时间：</label><input type="text" id="RuDate1" value="0">
+        </p>
+        <p>
+            <label>注册编码：</label><input type="text" id="YesID1">
+        </p>
+        <p>
+            <button onclick="sigin1()">注册</button>
+        </p>
+    </div>
+    <div id="inputBox">
+        <p>
+            <label>在线客服</label>
+        </p>
+        <p>
+            <label>使用时间：</label><input type="text" id="RuDate2" value="0">
+        </p>
+        <p>
+            <label>注册编码：</label><input type="text" id="YesID2">
+        </p>
+        <p>
+            <button onclick="sigin2()">注册</button>
+        </p>
+    </div>
+    <div>
+    </div>
+    <script src="./javascripts/jquery.min.js"></script>
+    <script>
+        var tbody = $('#tbody');
+        window.onload = function () {
+            getMachineCode();
+        }
+
+        function getMachineCode() {
+            $.ajax({
+                url: '/students/all',
+                type: 'GET',
+                success: function (data) {
+                    if (data.success) {
+                        $('#MachineCode').html(data.datas.messages);
+                    }
+                }
+            })
+        }
+
+        function sigin() {
+            var param = {
+                RuDate: $('#RuDate').val(),
+                UserCount: $('#UserCount').val(),
+                YesID: $('#YesID').val()
+            }
+            $.ajax({
+                url: '/students/add',
+                type: 'POST',
+                dataType: 'json',
+                data: param,
+                success: function (res) {
+                    if (res.success) {
+                        alert(res.datas.messages);
+                    } else {
+                        alert(res.datas.messages);
+                    }
+                }
+            })
+        }
+
+        function sigin1() {
+            var param = {
+                RuDate: $('#RuDate1').val(),
+                YesID: $('#YesID1').val()
+            }
+            $.ajax({
+                url: '/students/add1',
+                type: 'POST',
+                dataType: 'json',
+                data: param,
+                success: function (res) {
+                    if (res.success) {
+                        alert(res.datas.messages);
+                    } else {
+                        alert(res.datas.messages);
+                    }
+                }
+            })
+        }
+
+        function sigin2() {
+            var param = {
+                RuDate: $('#RuDate2').val(),
+                YesID: $('#YesID2').val()
+            }
+            $.ajax({
+                url: '/students/add2',
+                type: 'POST',
+                dataType: 'json',
+                data: param,
+                success: function (res) {
+                    if (res.success) {
+                        alert(res.datas.messages);
+                    } else {
+                        alert(res.datas.messages);
+                    }
+                }
+            })
+        }
+
+    </script>
+</body>
+
+</html>

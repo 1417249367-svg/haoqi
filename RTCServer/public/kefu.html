@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title></title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chorme=1">
+<script>
+function GetRequest() {
+   var url = location.search; //获取url中"?"符后的字串
+   var theRequest = new Object();
+   if (url.indexOf("?") != -1) {
+      var str = url.substr(1);
+      strs = str.split("&");
+      for(var i = 0; i < strs.length; i ++) {
+         theRequest[strs[i].split("=")[0]]=(strs[i].split("=")[1]);
+      }
+   }
+   return theRequest;
+}
+var Request = new Object();
+Request = GetRequest();
+</script>
+<meta name="viewport" content="width=device-width,target-densitydpi= 120,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"></head>
+<body>   
+</body></html>
+<script type="text/javascript" src="http://127.0.0.1:98/livechat/getjs/?ipaddress=http://127.0.0.1:97"></script>
+<script>
+islocation=1;
+setTimeout(function(){
+talk(Request.username);
+}, 1000);
+</script>

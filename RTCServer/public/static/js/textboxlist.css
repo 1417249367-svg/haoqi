@@ -1,0 +1,9 @@
+.textboxlist{border:1px solid #ccc;border-radius:4px;padding:5px;}
+.textboxlist-data{margin:0px;padding:0px;}
+.textboxlist-data li{float:left;margin:0px;padding:0px 10px 0px 2px; list-style-type:none; background:#dee7f8;border:1px solid #cad8f3;border-radius:4px;margin-right:5px;}
+.textboxlist-data li span{float:left;padding:2px;}
+.textboxlist-data li i{float:right;width:15px;height:20px; background:url(../img/delete.gif) center center no-repeat;}
+.textboxlist input{border-width:0px;}
+.textboxlist input:focus{outline: 0;}
+
+.dropdown-menu li{float:none; background-color:Transparent; border-width:0px;padding:0px;}

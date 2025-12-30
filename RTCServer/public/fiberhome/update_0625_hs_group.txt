@@ -1,0 +1,1 @@
+ALTER TABLE hs_group ADD col_deptpath VARCHAR(1024) default '';  

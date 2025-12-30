@@ -1,0 +1,1096 @@
+.kl_Container {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 1em;
+}
+
+.kl_box {
+    float: none;
+    height: 5em;
+    margin: 0px auto;
+    clear: none;
+    width: 100%;
+    min-height: 4em;
+    min-width: 0px;
+    background-color: rgb(255,255,255);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px -0.1em 0.2em 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px -0.1em 0.2em 0px inset;
+    padding-bottom: 0.6em;
+}
+
+.kl_box2 {
+    float: left;
+    height: auto;
+    margin: 0.5em 0px 0px 0.3em;
+    clear: none;
+    width: 2.8em;
+    min-height: 50px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    overflow: hidden;
+}
+
+.kl_box3 {
+    float: none;
+    height: 2.5em;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 2.5em;
+    min-height: 0px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    margin-right: auto;
+    background-image:url("img/ttic1.png");
+    background-attachment: scroll;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-color: rgb(238, 202, 189);
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+	
+	border:rgb(204,204,204) 0.1em solid;
+}
+
+.kl_text {
+    float: none;
+    font-size: 0.7em;
+    width: 100%;
+    height: 1.5em;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-left: auto;
+    margin-top: 0.3em;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    color: rgb(96, 96, 96);
+    min-width: 0px;
+    overflow: hidden;
+}
+
+.kl_box4 {
+    float: left;
+    height: 4.4em;
+    clear: none;
+    width: 25%;
+    min-height: 50px;
+}
+
+.kl_text1 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin-left: auto;
+    margin-top: 1.5em;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    color: rgb(96, 96, 96);
+}
+
+.kl_box5 {
+    float: right;
+    height: 2.8em;
+    margin: 1em 0.6em 0px 0px;
+    clear: none;
+    width: 2.8em;
+    min-height: 0px;
+    background-color: rgb(238, 202, 189);
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    background-image:url("img/poit17.png");
+    background-attachment: scroll;
+    -webkit-background-size: 1.8em;
+    background-size: 1.8em;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+.kl_box1 {
+    float: left;
+    height: 4.5em;
+    margin: 0px;
+    clear: none;
+    width: 75%;
+    min-height: 50px;
+    overflow:auto;
+    display: block;
+}
+
+.kl_box6 {
+    float: none;
+    height: auto;
+    margin: 0px auto;
+    clear: none;
+    width: 100%;
+    min-height: 4em;
+    min-width: 0px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px -0.1em 0.2em 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px -0.1em 0.2em 0px inset;
+    padding-bottom: 0.6em;
+    background-color: rgb(237, 237, 237);
+}
+
+.kl_box7 {
+    float: none;
+    height: auto;
+    margin: 0px auto;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    overflow: visible;
+    min-width: 0px;
+    padding-bottom: 0.5em;
+}
+
+.kl_box8 {
+    float: left;
+    height: auto;
+    margin: 0.6em 0px 0px 0.6em;
+    clear: none;
+    width: 4em;
+    min-height: 50px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    overflow: visible;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.kl_box10 {
+    float: none;
+    height: 3.5em;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 3.5em;
+    min-height: 0px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    margin-right: auto;
+    background-image:url("img/ttic1.png");
+    background-attachment: scroll;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-color: rgb(238, 202, 189);
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+.kl_text2 {
+    float: none;
+    font-size: 0.8em;
+    width: 100%;
+    height: 1.19921875em;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-left: auto;
+    margin-top: 0.2em;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    color: rgb(96, 96, 96);
+    min-width: 0px;
+    overflow: hidden;
+}
+
+.kl_box12 {
+    float: left;
+    height: 3.5em;
+    margin: 0em 0px 0px 1em;
+    clear: none;
+    width: 3.5em;
+    min-height: 0px;
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    background-image:url("img/poit17.png");
+    background-attachment: scroll;
+    -webkit-background-size: 32px;
+    background-size: 32px;
+    background-color: rgb(238, 202, 189);
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+.kl_box11 {
+    float: none;
+    height: auto;
+    margin: 0.7em auto 0px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 0px;
+}
+
+.kl_box13 {
+    float: left;
+    height: 3.5em;
+    margin: 0em 0px 0px 1em;
+    clear: none;
+    width: 3.5em;
+    min-height: 0px;
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    background-image:url("img/poit17b.png");
+    background-attachment: scroll;
+    -webkit-background-size: 2em;
+    background-size: 2em;
+    background-color: rgb(238, 202, 189);
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+.kl_box9 {
+    float: left;
+    height: 1.4em;
+    clear: none;
+    width: 1.4em;
+    min-height: 0px;
+    position: absolute;
+    z-index: 50;
+    top: 0px;
+    left: auto;
+    bottom: auto;
+    right: 0px;
+}
+
+.kl_image {
+    float: none;
+    width: 1.4em;
+    max-width: 100%;
+    height: 1.4em;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+.kl_box14 {
+    float: none;
+    height: 2.8em;
+    margin: 0px auto;
+    clear: none;
+    width: 100%;
+    min-width: 0px;
+    background-color: rgb(255, 255, 255);
+    background-image:url("img/poit10.png");
+    background-attachment: scroll;
+    -webkit-background-size: auto 1.2em;
+    background-size: auto 1.2em;
+    border-bottom-color: rgb(224, 224, 224);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    background-position: 98% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+.kl_text3 {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1em;
+    margin-left: 0.8em;
+    margin-top: 0.9em;
+    clear: none;
+    min-height: 0px;
+}
+
+.kl_box15 {
+    float: none;
+    height: 2.6em;
+    margin: 0.8em auto 0px;
+    clear: none;
+    width: 98%;
+    min-height: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.kl_box16 {
+    float: none;
+    height: auto;
+    margin: 0px auto 0px;
+    clear: none;
+    width: 99%;
+    min-height: 150px;
+}
+
+.kl_box18 {
+    float: none;
+    height: auto;
+    margin: 0.7em auto 0px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 0px;
+}
+
+.kl_box19 {
+    float: left;
+    height: auto;
+    margin: 0px;
+    clear: none;
+    width: 2.8em;
+    min-height: 50px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    overflow: visible;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.kl_box20 {
+    float: none;
+    height: 2.6em;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 2.6em;
+    min-height: 0px;
+    margin-right: auto;
+    background-image:url("img/ttic1.png");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: rgba(232,232,232,1.00);
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+	
+	border:rgb(204,204,204) 1px solid;
+	
+	position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.kl_text5 {
+    float: none;
+    font-size: 0.8em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-left: auto;
+    margin-top: 0.3em;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    color: rgb(96, 96, 96);
+    min-width: 0px;
+    overflow: visible;
+}
+
+.kl_box21 {
+    float: left;
+    height: auto;
+    margin: 0em auto auto 1em;
+    clear: none;
+    width: auto;
+    min-height: 2.5em;
+    min-width: 2em;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: rgb(238,238,238);
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+	word-break: break-all;
+	white-space: normal;
+}
+
+.kl_box21b {
+    float: left;
+    height: auto;
+    margin: 0px 0.3em 0px 0.3em;
+    clear: none;
+    width: 19em;
+    min-height: 2.5em;
+    min-width: 2em;
+    position: relative;
+	cursor:pointer;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+	border: 1px solid #ccc;
+}
+
+.kl_box21c {
+    float: left;
+    height: auto;
+    margin: 0px 0.3em 0px 0.3em;
+    clear: none;
+    width: auto;
+    min-height: 2.5em;
+    min-width: 2em;
+	max-width: 18em;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+	border: 1px solid #ccc;
+}
+
+.kl_box21d {
+    float: left;
+    height: auto;
+    margin: 0px 0.3em 0px 0.3em;
+    clear: none;
+    width: 19em;
+    min-height: 2em;
+    min-width: 2em;
+    position: relative;
+	cursor:pointer;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+	border: 1px solid #ccc;
+}
+
+.kl_text6 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.4em;
+    clear: none;
+    color: rgb(53, 53, 53);
+	padding-left:0.5em;
+	padding-right:0.5em;
+}
+.kl_text6 img{ 
+    float: none;
+    width: auto;
+    max-width: 7em;
+    height: auto;
+    margin: 0px auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    max-height: 7.5em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+}
+
+.kl_box22 {
+    float: left;
+    height: 1em;
+    clear: none;
+    width: 1em;
+    min-height: 0px;
+    position: absolute;
+    top: 0.8em;
+    left: -0.8em;
+    z-index: 30;
+    right: auto;
+    bottom: auto;
+}
+
+.kl_image1 {
+    float: right;
+    width: 0.875em;
+    max-width: 100%;
+    height: 1em;
+    margin: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+.kl_box17 {
+    float: none;
+    height: 1.3em;
+    margin: 1em auto 0em;
+    clear: none;
+    width: auto;
+    min-height: 0px;
+    min-width: 0px;
+    max-width: 17em;
+    background-color: rgb(210, 210, 210);
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+    overflow: hidden;
+}
+
+.kl_box17b {
+    float: none;
+    height: 1.3em;
+    margin: 0em auto 0em;
+    clear: none;
+    width: 6em;
+    min-height: 0px;
+    min-width: 0px;
+    max-width: 17em;
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+    overflow: hidden;
+}
+
+.kl_box37 {
+    float: none;
+    margin: 1em auto 0em;
+    clear: none;
+    width: auto;
+    min-height: 0px;
+    min-width: 0px;
+    background-color: rgb(210, 210, 210);
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+    overflow: hidden;
+}
+.kl_box38 {
+    float: left;
+    height: 1.3em;
+    margin: 1em auto 0em;
+    clear: none;
+    width: auto;
+    min-height: 0px;
+    min-width: 0px;
+    max-width: 17em;
+    background-color: rgb(210, 210, 210);
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+    overflow: hidden;
+}
+.kl_text4 {
+    float: none;
+    font-size: 0.9em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-left: auto;
+    margin-top: 0.1em;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    min-width: 3em;
+    color: rgb(255, 255, 255);
+}
+
+.kl_box23 {
+    float: none;
+    height: auto;
+    margin: 0.7em auto 0px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 0px;
+	word-break: break-all;
+	white-space: normal;
+}
+
+.kl_box24 {
+    float: right;
+    height: auto;
+    margin: 0px;
+    clear: none;
+    width: 2.8em;
+    min-height: 50px;
+    overflow: visible;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.kl_box25 {
+    float: none;
+    height: 3.5em;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 3.5em;
+    min-height: 0px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    margin-right: auto;
+    background-image:url("img/ttic1.png");
+    background-attachment: scroll;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-color: rgb(238, 202, 189);
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+.kl_text7 {
+    float: none;
+    font-size: 0.8em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-left: auto;
+    margin-top: 0.2em;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    color: rgb(96, 96, 96);
+    min-width: 0px;
+    overflow: visible;
+}
+
+.kl_box26 {
+    float: right;
+    height: auto;
+    margin: 0em 1em 0px 0px;
+    clear: none;
+    width: auto;
+    min-height: 2.5em;
+	max-width: 75%;
+    min-width: 2em;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    background-color: rgb(205,232,251);
+	word-break: break-all;
+	white-space: normal;
+}
+
+.kl_box26b {
+    float: right;
+    height: auto;
+    margin: 0.6em 1em 0px 0px;
+    clear: none;
+    width: auto;
+    min-height: 2.5em;
+    min-width: 8em;
+    max-width: 67%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    background-color: rgb(255, 255, 255);
+}
+
+.kl_box27 {
+    float: left;
+    height: 1em;
+    clear: none;
+    width: 1em;
+    min-height: 0px;
+    position: absolute;
+    top: 0.8em;
+    left: auto;
+    z-index: 30;
+    right: -0.8em;
+    bottom: auto;
+}
+
+.kl_image3 {
+    float: right;
+    width: 0.875em;
+    max-width: 100%;
+    height: 1em;
+    margin: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+.kl_image2 {
+    float: none;
+    width: auto;
+    max-width: 7em;
+    height: auto;
+    margin: 0px auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    min-width: 0px;
+    max-height: 7.5em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+}
+
+.kl_box34 {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 0.75em;
+    clear: none;
+    width: 90%;
+    min-height: 80px;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    padding-top: 0.5em;
+    padding-bottom: 0em;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.kl_box36 {
+    float: left;
+    height: 1.8em;
+    clear: none;
+    width: 100%;
+    min-height: 0px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    z-index: 50;
+    min-width: 0px;
+    border-top-color: rgb(210, 210, 210);
+    border-top-width: 0.1em;
+    border-top-style: solid;
+    margin-top: 0px;
+    margin-left: 0%;
+    background-image:url("img/poit10.png");
+    background-attachment: scroll;
+    -webkit-background-size: auto 0.9em;
+    background-size: auto 0.9em;
+    background-position: 97% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+.kl_box35 {
+    float: none;
+    height: auto;
+    clear: none;
+    width: 90%;
+    min-height: 5em;
+    position: static;
+    top: 0px;
+    left: 0px;
+    z-index: 50;
+    min-width: 0px;
+    margin: 0px auto;
+    padding-bottom: 0.5em;
+}
+
+.kl_text13 {
+    float: left;
+    font-size: 0.9em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0.6em;
+    margin-top: 0.5em;
+    clear: none;
+    min-height: 0px;
+    color: rgb(240, 88, 39);
+}
+
+.kl_text11 {
+    float: none;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.4em;
+    margin: 0px auto 0.5em;
+    clear: none;
+    min-height: 0px;
+    min-width: 0px;
+	overflow:hidden;
+}
+
+.kl_image6 {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    max-height: 9em;
+}
+
+.kl_text12 {
+    float: none;
+    font-size: 0.8em;
+    width: 100%;
+    height: 4.2em;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.4em;
+    margin: 0.5em auto 0px;
+    clear: none;
+    min-height: 0px;
+    min-width: 0px;
+    color: rgb(164, 164, 164);
+    overflow: hidden;
+}
+
+.kl_box28 {
+    float: none;
+    height: auto;
+    margin: 1.5em auto 0px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 0px;
+}
+
+.kl_box29 {
+    float: right;
+    height: auto;
+    margin: 0px;
+    clear: none;
+    width: 4.2em;
+    min-height: 50px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    overflow: visible;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.kl_box30 {
+    float: none;
+    height: 3.5em;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 3.5em;
+    min-height: 0px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    margin-right: auto;
+    background-image:url("img/ttic1.png");
+    background-attachment: scroll;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-color: rgb(238, 202, 189);
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+.kl_text8 {
+    float: none;
+    font-size: 0.8em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-left: auto;
+    margin-top: 0.2em;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    color: rgb(96, 96, 96);
+    min-width: 0px;
+    overflow: visible;
+}
+
+.kl_box31 {
+    float: right;
+    height: auto;
+    margin: 0.6em 1em 0px 0px;
+    clear: none;
+    width: auto;
+    min-height: 2.5em;
+    min-width: 13em;
+    max-width: 67%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    background-color: rgb(255, 255, 255);
+}
+
+.kl_box32 {
+    float: left;
+    height: 1em;
+    clear: none;
+    width: 1em;
+    min-height: 0px;
+    position: absolute;
+    top: 0.8em;
+    left: auto;
+    z-index: 30;
+    right: -0.8em;
+    bottom: auto;
+}
+
+.kl_image4 {
+    float: right;
+    width: 0.875em;
+    max-width: 100%;
+    height: 1em;
+    margin: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+.kl_text9 {
+    float: left;
+    font-size: 0.9em;
+    width: 90%;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin: 0px 0px 0px 0.6em;
+    clear: none;
+    min-height: 0px;
+    min-width: 0px;
+    text-indent: 0em;
+}
+
+.kl_box33 {
+    float: left;
+    height: auto;
+    margin: 0.4em 0px 0px 0.6em;
+    clear: none;
+    width: 90%;
+    min-height: 50px;
+}
+
+.kl_image5 {
+    float: left;
+    width: 4em;
+    max-width: none;
+    height: 3em;
+    margin: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    max-height: none;
+}
+
+.kl_text10 {
+    float: left;
+    font-size: 0.8em;
+    width: 60%;
+    height: 5.4em;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.4em;
+    margin: 0px 0px 0px 0.6em;
+    clear: none;
+    min-height: 0px;
+    color: rgba(103,103,103,1.00);
+    font-style: normal;
+    overflow: hidden;
+}
+.kl_text10b {
+    float: none;
+    font-size: 0.8em;
+    width: 92%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.4em;
+    margin: 0.6em auto 0px auto;
+    clear: none;
+    min-height: 0px;
+    color: rgba(103,103,103,1.00);
+    font-style: normal;
+    overflow: hidden;
+}
+

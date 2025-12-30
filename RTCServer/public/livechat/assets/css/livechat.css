@@ -1,0 +1,195 @@
+
+
+.icon-font{ background:url(../img/icon.png) 0px 0px no-repeat;}
+.icon-emote{ background:url(../img/icon.png) -20px 0px no-repeat;}
+.icon-file{ background:url(../img/icon.png) -40px 0px no-repeat;}
+.icon-screenshot{ background:url(../img/icon.png) -60px 0px no-repeat;}
+.icon-save{ background:url(../img/icon.png) -80px 0px no-repeat;}
+.icon-clear{ background:url(../img/icon.png) -120px 0px no-repeat;}
+.icon-hisotry{ background:url(../img/icon.png) -100px 0px no-repeat;}
+.icon-rate{ background:url(../img/icon.png) -140px 0px no-repeat;}
+
+/*1 离线 2 正在登录 3在线 4脱机  5离开 6忙碌 7离开 8请勿打扰*/
+.icon-status-3{ background:url(../img/icon.png) 0px -20px no-repeat;} /*3在线*/
+.icon-status-6,.user-status-6 .icon-status{ background:url(../img/icon.png) -20px -20px no-repeat;} /*6忙碌*/
+.icon-status-5,.user-status-5 .icon-status{ background:url(../img/icon.png) -40px -20px no-repeat;}  /*7离开*/
+.icon-status-4{ background:url(../img/icon.png) -60px -18px no-repeat;}  /*3脱机*/
+.icon-status-8,.user-status-8 .icon-status{ background:url(../img/icon.png) -80px -20px no-repeat;} /*3请勿打扰*/
+
+ 
+
+
+
+.chat-record{height:276px; overflow:auto ;padding:0px 5px;}
+.msg-section{padding:5px 0px;}
+.msg{padding:0px 5px; display:block ;margin-top:2px; position:relative;}
+.msg:after{visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
+.msg-user{ position:absolute ;}
+.msg-user img.photo{width:30px;height:30px;}
+.msg-name{display:none;}
+.msg-time{display:block;font-size:11px;color:#999;margin-top:1px;padding:2px 5px;}
+<!--.msg-content{float:left;margin-left:30%;margin-bottom:5px;padding:6px 30px;border-radius:5px; min-width:150px;color:#333;background-color:#e0eff8;border:1px solid #9ec3d3;border-width:0px; }-->
+
+.msg-1{ text-align:right; }
+.msg-1 .msg-user{ right:0px;}
+.msg-1 .msg-intro{margin-right:30px;}
+.msg-1 .msg-content{
+    float: right;
+    height: auto;
+    margin: 0em 1em 0px 0px;
+    clear: none;
+    width: auto;
+    min-height: 2em;
+	max-width: 75%;
+    min-width: 2em;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    background-color: rgba(18,183,245,1.00);
+	word-break: break-all;
+	white-space: normal;
+}
+
+.msg-2{ text-align:left;}
+.msg-2 .msg-user{left:0px;}
+.msg-2 .msg-intro{margin-left:30px;}
+.msg-2 .msg-content{
+    float: left;
+    height: auto;
+    margin: 0em auto auto 1em;
+    clear: none;
+    width: auto;
+    min-height: 2.5em;
+    min-width: 2em;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: rgba(238,238,238,1.00);
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+	word-break: break-all;
+	white-space: normal;
+}
+
+.msg-3{ text-align:center;}
+.msg-3 .msg-content{background-color:#FFF;border-color:#decbaa;font-size:11px;color:#999; }
+
+.kl_text6 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.4em;
+    clear: none;
+    color: rgb(53, 53, 53);
+	padding-left:0.5em;
+	padding-right:0.5em;
+}
+.kl_text6 img{ 
+    float: none;
+    width: auto;
+    max-width: 7em;
+    height: auto;
+    margin: 0px auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    max-height: 7.5em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+}
+
+.kl_box27 {
+    float: left;
+    height: 1em;
+    clear: none;
+    width: 1em;
+    min-height: 0px;
+    position: absolute;
+    top: 0.8em;
+    left: auto;
+    z-index: 30;
+    right: -0.8em;
+    bottom: auto;
+}
+
+.kl_image3 {
+    float: right;
+    width: 0.875em;
+    max-width: 100%;
+    height: 1em;
+    margin: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+.kl_box22 {
+    float: left;
+    height: 1em;
+    clear: none;
+    width: 1em;
+    min-height: 0px;
+    position: absolute;
+    top: 0.8em;
+    left: -0.8em;
+    z-index: 30;
+    right: auto;
+    bottom: auto;
+}
+
+.kl_image1 {
+    float: right;
+    width: 0.875em;
+    max-width: 100%;
+    height: 1em;
+    margin: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+.chat-toolbar{height:30px; position:relative;background:#e9e9ec;background-image: -moz-linear-gradient(top, #f7f7f7, #e9e9ec);background-image: -webkit-linear-gradient(top, #f7f7f7, #e9e9ec);}
+.chat-toolbar .toolbar{padding:5px;}
+.chat-toolbar .toolbar li{margin:0px;padding:0px; float:left;list-style-type:none;float:left;margin-right:5px;}
+.chat-toolbar .toolbar li a{float:left;padding:2px;border:1px solid #e9e9ec;color:#9c9c9c;}
+.chat-toolbar .toolbar li a:hover{border:1px solid #9c9c9c;background:#e9e9ec;}
+
+.chat-write{ background:#e9e9ec;padding:5px;border-radius:0px;}
+.chat-write .messagebox-content{width:100%;height:50px;border-radius:4px 0px 0px 4px;padding:0px;margin:0px;border:1px solid #ccc;float:left;background:#fff; }
+.chat-write .messagebox{width:100%;height:40px;padding:5px;border-radius:4px;word-wrap: break-word;word-break: normal; overflow:auto; }
+.chat-write .btn{height:52px;width:45px;border-radius:0px 4px 4px 0px;padding:0px;margin:0px;border-left:0px;}
+
+.popu{position:absolute ;left:0px;background:#fff;border:1px solid #eee;padding:2px; display:none;box-shadow: 0 0 5px 5px #ccc;border-radius:4px;}
+
+ 
+.popu-emote img{border-width:0px;}
+.popu-emote a{float:left;border:1px solid #ddebf6;border-radius:4px;margin:2px;height:28px;padding:5px;}
+.popu-emote a:hover{background-color:#c9e5ff;border:1px solid #398fdc;}
+
+.popu-file{width:400px;}
+.popu-file .form-control{width:350px;float:left;}
+.popu-file .btn{padding:2px 6px;float:right;}
+
+.popu-capture{width:400px;}
+
+.modal-container{}
+.modal-body{padding:10px;height:140px; line-height:25px;}
+.modal-footer{padding:10px;height:35px; text-align:right;padding-top:10px;border-top:1px solid #ccc;}
+.modal-footer .btn{padding:3px 10px;}
+
+.thumbview{ display:none;}
+
+.inputfile1{cursor:pointer; width:25px;left:-5px; opacity: 0;-moz-opacity: 0;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+

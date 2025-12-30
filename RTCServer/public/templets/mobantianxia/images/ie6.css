@@ -1,0 +1,36 @@
+UL#banner_current {
+	Z-INDEX: 10; RIGHT: -7px; WIDTH: 273px; POSITION: absolute; TOP: 4px; HEIGHT: 245px
+}
+UL#banner_current LI {
+	MARGIN-BOTTOM: -3px; HEIGHT: 49px
+}
+UL#banner_current .banner_title {
+	PADDING-LEFT: 66px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 5px; HEIGHT: 49px
+}
+UL#banner_current P.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #87d9ec; LINE-HEIGHT: 20px; HEIGHT: 20px
+}
+UL#banner_current P.des {
+	FONT-SIZE: 12px; COLOR: #67c1d5; LINE-HEIGHT: 20px; HEIGHT: 20px
+}
+UL#banner_current LI A.current {
+	HEIGHT: 49px
+}
+UL#banner_current .locoy {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://locoy.com/images/locoy_item.png", sizingMethod="")
+}
+UL#banner_current .version {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://locoy.com/images/soft_item.png", sizingMethod="")
+}
+UL#banner_current .qq {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://locoy.com/images/qq_item.png", sizingMethod="")
+}
+UL#banner_current .bulletin {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://locoy.com/images/anno_item.png", sizingMethod="")
+}
+UL#banner_current .newweb {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://locoy.com/images/web_item.png", sizingMethod="")
+}
+UL#banner_current LI A.current {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://locoy.com/images/current.png", sizingMethod="")
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>客服系统</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+    <link rel="stylesheet" href="/css/client.css">
+    <link rel="stylesheet" href="/css/kjctn.css">
+</head>
+
+<body>
+<div id="win" class="page-group">
+    <div class="page page-current">
+        <!-- 标题栏 -->
+        <header class="bar bar-nav">
+            <a href="tel:" id="tel"><span class="icon icon-phone pull-left open-panel"></span></a>
+            <h1 class="title">客服系统<span id="keleyivisitorip" style="display: none;"></span></h1>
+        </header>
+        <!-- 这里是页面内容区 -->
+        <div class="content">
+            <div class="content-block msg-container" id="msg-container">
+<div class="msg-box">
+		        <div class="bubble rich-text-bubble">
+					<span class="arrow"></span>
+					<div class="message-system-content"><div class="kl_box21b"><div class="kc_box50 clearfix"><img class="ktx image" src="http://www.haoqiniao.cn/templets/54/picture/logo.png"/></div><p class="kc_text7c">的分噶风格</p><p class="kc_text10c">100</p></div></div>
+					<span class="status icon"></span>
+				</div> 
+		</div>
+            </div>
+
+            <footer id="chatFooter" class="footer" style="display:none;">
+                <div class="input-holder">
+                    <div class="emoji-image docs-icons" id="btn-uploader">
+                        <span class="icon icon-emoji emoji-send"></span>
+                    </div>
+                    <div class="text-holder">
+                        <div class="messagebox-content"><div id="msg-send-textarea"  contentEditable="true" ></div><textarea name="msg-send-textarea"></textarea></div>
+                        <a id="btnSend">发送</a>
+                    </div>
+                </div>
+            </footer>
+            <div class="emoji-list">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="//twemoji.maxcdn.com/2/twemoji.min.js?2.3.1"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/plupload/2.1.9/moxie.min.js"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/plupload/2.1.9/plupload.min.js"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/qiniu-js-sdk/1.0.14-beta/qiniu.min.js"></script>
+<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+<script src="/js/jquery-min.js"> </script>
+<script src="/langs/cn/lang.js"></script>
+<script src="/js/fingerprint.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script type='text/javascript' src='/js/common.js' charset='utf-8'></script>
+<script src="/static/js/msg_reader.js"> </script>
+<script type='text/javascript' src='/js/client/client.js' charset='utf-8'></script>
+<script type='text/javascript' src='/js/client/livechat.js' charset='utf-8'></script>
+</body>
+
+</html>

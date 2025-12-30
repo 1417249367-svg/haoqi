@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312"?>
+<BODY>
+	<BigAntCAddin Name="OA" Site="128" TargetType="4">
+		<Target><![CDATA[http://10.14.0.1:80/?loginname=[LoginName]&token=[Token]&app_id=1436518005]]></Target>
+		<DisplayName>OA</DisplayName><Desc><![CDATA[OA]]></Desc>
+		<Image>http://[AntServer]:8000/install/addin/addin_oa.png</Image>
+	</BigAntCAddin>
+</BODY>

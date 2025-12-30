@@ -1,0 +1,66 @@
+.flutter{position:fixed ; z-index:999999;}
+.flicker{animation: twinkle 0.5s infinite alternate;}
+@keyframes twinkle {
+	0%{
+		opacity:.0.8;
+	}
+	100%{
+		opacity:0;
+	}
+}
+*,h1,h2,h3,h4,h5,td,span,div,p,input,button,select,a{ font-family:"΢���ź�";}
+#livechat{font-family:Arial, Helvetica, sans-serif ;margin:0px;padding:0px;cursor:pointer;}
+#livechat dt{color:#fff;margin:0px;padding:10px; background:#0088cc;font-size:18px;}
+#livechat dl{margin:0px;padding:0px;}
+#livechat dd{margin:0px;padding:0px;}
+#livechat ul{margin:5px;padding:0px;}
+#livechat ul li{text-align:left; list-style-type:none;margin:0px;padding:0px;}
+#livechat ul li a{ display:block ;padding:5px;text-decoration:none; position:relative; font-size:12px !important;}
+#livechat ul li a:hover{ background-color:#f7f7f7;}
+#livechat ul li span{padding:8px 5px ;margin:0px; position:absolute; font-size:12px;}
+/*
+a,a:hover{color:#3877b6;}
+
+
+#livechat ul li img.avater{width:30px;height:30px;border-radius:4px;}
+#livechat ul li.status-0 img.avater{alpha(opacity=20); opacity:0.2;}
+*/
+
+#livechat ul li img{display:none;}
+#livechat ul li a{padding-left:30px;  background-position:left center ; background-repeat:no-repeat ; background-image:url(../img/livechat.png);}
+#livechat ul li.status-3 a{background-image:url(../img/user1.png) ; }
+
+.ysf-online-invite-wrap{z-index:10001;position:fixed;top:50%;left:50%}
+.ysf-online-invite{position:relative;top:-50%;left:-50%;cursor:pointer}
+.ysf-online-invite img{display:block;width:250px;cursor:pointer}
+.ysf-online-invite .ysf-online-invite-img{width:100%;height:100%}
+/*.ysf-online-invite .text{position:absolute;cursor:pointer;left:0;right:0;overflow:hidden;margin:3em 2.5em 0 4.5em;line-height:140%;color:#526069;font-size:3em;font-family:"Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";text-align:left;white-space:normal;word-wrap:break-word}
+*/
+.ysf-online-invite .text{position:absolute;cursor:pointer;top:-11px;left:0;right:0;overflow:hidden;margin:36px 20px 0 67px;line-height:140%;color:#526069;font-size:14px;font-family:"Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";text-align:left;white-space:normal;word-wrap:break-word}
+.ysf-online-invite .close{position:absolute;top:-6px;right:-6px;width:32px;height:32px;background:url(../img/invite-close.png) no-repeat;cursor:pointer}
+.ysf-online-invite .close.custom{top:-16px;right:-16px}
+
+/**
+ * 快捷导航
+ */
+.common-quick-nav {
+  border: 0 !important;
+  background: rgba(0, 0, 0, 0.6) !important;
+  border-radius: 50% !important;
+  width: 18% !important;
+  height: 10% !important;
+}
+.common-quick-nav .dis-block {
+  margin-left: 16%;
+  width: 67%;
+  height: 67%;
+}
+
+/**
+ * 在线客服
+ */
+.common-online-service {
+  bottom: 35%;
+}
+
+.dis-block { display: block; }

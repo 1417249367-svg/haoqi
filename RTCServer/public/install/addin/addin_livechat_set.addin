@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<BODY>
+  <BigAntCAddin Name="LiveChatSet" Site="128"  TargetType="4">
+    <Target>http://[AntServer]:8000/livechat/chater_edit.html?loginname=[LoginName]&amp;password=[pw5]</Target>
+    <DisplayName>客服设置</DisplayName>
+    <Desc>客服设置</Desc>
+    <Image>http://[AntServer]:8000/install/addin/livechat.bmp</Image>
+  </BigAntCAddin>
+</BODY>

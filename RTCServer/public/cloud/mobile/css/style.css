@@ -1,0 +1,195 @@
+/* 最外层容器 */
+.flutter{position:absolute ;}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    font-weight: bold;
+    color: #555;
+}
+
+.header, .footer {
+    height: 3.75em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+/* header内容 */
+.header {
+    border-bottom: 1px solid #eee;
+}
+
+/* 左侧分类 和 右侧三个图标 */
+.left-item, .right-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right-menu img {
+    height: 1.5625em;
+    margin-right: 0.69em;
+}
+
+.right-menu img:last-child {
+    margin-right: 0;
+}
+
+/* 主体内容 */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 1em;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* 主体栏中的搜索 */
+.doc-save-box {
+	float:left;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background: #F8F8F8;
+	width:70%;
+    height: 3em;
+    margin: 0.5em 0 0.5em 0.5em;
+    padding: 0.75em 1em;
+    border-radius: 0.5em;
+}
+
+#doc_save {
+   margin: 0.7em 0 0.5em 0.5em;
+}
+
+/* 主体栏中的搜索 */
+.nav-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: 2em;
+    margin: 0.75em 0 0 0;
+	padding-left:1em;
+	border-bottom: 1px solid #eee;
+}
+
+.nav-box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: 2em;
+    margin: 0.75em 0 0 0;
+	padding-left:1em;
+	border-bottom: 1px solid #eee;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #c1c1c3;
+    font-weight: lighter;
+}
+
+/* 搜索栏下面的列表 */
+.main-content .list-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.list-box .list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em 0;
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+    cursor: pointer;
+}
+
+.list-box .list-item em {
+    font-size: .8em;
+    font-style: normal;
+    font-weight: normal;
+    color: #c1c1c3;
+}
+
+.main-content .list-box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.list-box1 .list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em 0;
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+    cursor: pointer;
+}
+
+.list-box1 .list-item em {
+    font-size: .8em;
+    font-style: normal;
+    font-weight: normal;
+    color: #c1c1c3;
+}
+/*.list-box .list-item img {
+    height: 33px;
+	margin-left: 20px;
+    margin-right: 20px;
+}*/
+
+/* footer内容 */
+.footer {
+    align-items: flex-end;
+    border-top: 1px solid #eee;
+    padding: 0.75em 1.5625em 0.06em 1.5625em;
+    cursor: pointer;
+}
+
+.footer .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #c1c1c3;
+    font-weight: lighter;
+}
+
+.footer .item:nth-child(2) {
+    color: #09A9FF;
+}
+
+.footer .item img {
+    height: 1.75em;
+}
+
+.list-box .doc_icon{float:left;width:60px;height:38px;padding:0px; position:relative;}
+.list-box .doc_icon img{width:50px;height:38px; position:absolute;left:0px;top:3px;}
+
+/*.list-box .doc_icon{float:left;width:3.75em;height:2.375em;padding:0px; position:relative;}
+.list-box .doc_icon img{width:3.125em;height:2.375em; position:absolute;left:0em;top:0.1875em;}*/
+.list-box .doc_icon{padding:15px 25px;}
+
+.list-box1 .doc_icon{float:left;width:60px;height:38px;padding:0px; position:relative;}
+.list-box1 .doc_icon img{width:50px;height:38px; position:absolute;left:0px;top:3px;}
+
+/*.list-box1 .doc_icon{float:left;width:3.75em;height:2.375em;padding:0px; position:relative;}
+.list-box1 .doc_icon img{width:3.125em;height:2.375em; position:absolute;left:0px;top:0.1875em;}*/
+.list-box1 .doc_icon{padding:15px 25px;}

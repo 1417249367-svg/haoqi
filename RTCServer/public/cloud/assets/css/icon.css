@@ -1,0 +1,70 @@
+.icon{padding:5px 12px;}
+
+
+
+/*25*25*/
+.icon_search{background:url(../img/icon_cmd.png) -250px 0px no-repeat;}
+.icon_upload{background:url(../img/icon_cmd.png) -275px 0px no-repeat;}
+.icon_download{background:url(../img/icon_cmd.png) 0px 0px no-repeat;}
+.icon_share{background:url(../img/icon_cmd.png) -25px 0px no-repeat;}
+.icon_move{background:url(../img/icon_cmd.png) -52px 0px no-repeat;}
+.icon_online_edit{background:url(../img/icon_cmd.png) -328px -25px no-repeat;}
+.icon_edit{background:url(../img/icon_cmd.png) -76px 0px no-repeat;}
+.icon_delete{background:url(../img/icon_cmd.png) -100px 0px no-repeat;}
+.icon_folder_create{background:url(../img/icon_cmd.png) -125px 0px no-repeat;}
+.icon_refresh{background:url(../img/icon_cmd.png) -225px 0px no-repeat;}
+.icon_thumb{background:url(../img/icon_cmd.png) -175px 0px no-repeat;}
+.icon_time{background:url(../img/icon_cmd.png) -200px 0px no-repeat;}
+.icon_az{background:url(../img/icon_cmd.png) -150px 0px no-repeat;}
+.icon_list{background:url(../img/icon_cmd.png) -350px 0px no-repeat;}
+.icon_attr{background:url(../img/icon_cmd.png) -375px 0px no-repeat;}
+.icon_subscribe{background:url(../img/icon_cmd.png) -300px 0px no-repeat;}
+.icon_subscribe_light{background:url(../img/icon_cmd.png) -325px 0px no-repeat;}
+.icon_qrcode{background:url(../img/icon_cmd.png) -400px 0px no-repeat;}
+
+.icon_dir{background:url(../img/icon_cmd.png) -0px -25px no-repeat;}
+.icon_recent{background:url(../img/icon_cmd.png) -25px -25px no-repeat;}
+.icon_office{background:url(../img/icon_cmd.png) -50px -25px no-repeat;}
+.icon_pic{background:url(../img/icon_cmd.png) -75px -25px no-repeat;}
+.icon_music{background:url(../img/icon_cmd.png) -100px -25px no-repeat;}
+.icon_video{background:url(../img/icon_cmd.png) -125px -25px no-repeat;}
+.icon_favitor{background:url(../img/icon_cmd.png) -200px -25px no-repeat;}
+.icon_create{background:url(../img/icon_cmd.png) -225px -25px no-repeat;}
+.icon_folder_person{background:url(../img/icon_cmd.png) -252px -25px no-repeat;}
+.icon_folder_public{background:url(../img/icon_cmd.png) -277px -25px no-repeat;}
+
+/*25*25*/
+.icon_success{background:url(../img/icon.png) 0px 0px no-repeat;}
+.icon_down{background:url(../img/icon.png) 0px -25px no-repeat;}
+.icon_win_minus{background:url(../img/icon.png) -25px -25px no-repeat;}
+.icon_win_plus{background:url(../img/icon.png) -50px -25px no-repeat;}
+.icon_win_close{background:url(../img/icon.png) -50px -50px no-repeat;cursor:pointer;}
+.icon_fail{background:url(../img/icon.png) -50px -75px no-repeat;}
+
+/*50*50*/
+.doc_list .doc_icon,.icon50{padding:15px  25px;}
+.icon_folder{background:url(../img/icon_doc.png) 0px 0px no-repeat;}
+.icon_zip{background:url(../img/icon_doc.png) -50px 0px no-repeat;}
+.icon_file,.icon_unknow{background:url(../img/icon_doc.png) -100px 0px  no-repeat;}
+.icon_img{background:url(../img/icon_doc.png) -150px 0px no-repeat;}
+.icon_txt{background:url(../img/icon_doc.png) -200px 0px  no-repeat;}
+.icon_doc{background:url(../img/icon_doc.png) -250px 0px no-repeat;}
+.icon_ppt{background:url(../img/icon_doc.png) -300px 0px no-repeat;}
+.icon_xls{background:url(../img/icon_doc.png) -350px 0px no-repeat;}
+.icon_pdf{background:url(../img/icon_doc.png) -400px 0px no-repeat;}
+.icon_mp3{background:url(../img/icon_doc.png) -450px 0px no-repeat;}
+.icon_mpeg{background:url(../img/icon_doc.png) -500px 0px no-repeat;}
+
+/*100*100*/
+.doc_thumb .icon100{padding:30px  50px;}
+.doc_thumb .icon_folder{background:url(../img/icon_doc_b.png) 0px 0px no-repeat;}
+.doc_thumb .icon_zip{background:url(../img/icon_doc_b.png) -10px 0px no-repeat;}
+.doc_thumb .icon_unknow{background:url(../img/icon_doc_b.png) -200px 0px  no-repeat;}
+.doc_thumb .icon_img{background:url(../img/icon_doc_b.png) -300px 0px no-repeat;}
+.doc_thumb .icon_txt{background:url(../img/icon_doc_b.png) -400px 0px  no-repeat;}
+.doc_thumb .icon_doc{background:url(../img/icon_doc_b.png) -500px 0px no-repeat;}
+.doc_thumb .icon_ppt{background:url(../img/icon_doc_b.png) -600px 0px no-repeat;}
+.doc_thumb .icon_xls{background:url(../img/icon_doc_b.png) -700px 0px no-repeat;}
+.doc_thumb .icon_pdf{background:url(../img/icon_doc_b.png) -800px 0px no-repeat;}
+.doc_thumb .icon_mp3{background:url(../img/icon_doc_b.png) -900px 0px no-repeat;}
+.doc_thumb .icon_mpeg{background:url(../img/icon_doc_b.png) -1000px 0px no-repeat;}

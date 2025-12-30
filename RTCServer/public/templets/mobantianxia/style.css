@@ -1,0 +1,27 @@
+#container {
+	BACKGROUND: #fff; MARGIN: auto; WIDTH: 950px; TEXT-ALIGN: left
+}
+.slide {
+	POSITION: relative; HEIGHT: 280px
+}
+.slideBanner {
+	DISPLAY: none; BACKGROUND: url(bannerBg.gif) #00a2d6 repeat-y right top; WIDTH: 950px; COLOR: #fff; POSITION: absolute; TOP: 0px; HEIGHT: 280px
+}
+.bannerText {
+	DISPLAY: none
+}
+.slideSwitch {
+	RIGHT: 10px; BACKGROUND: url(slidebar.png) no-repeat left top; WIDTH: 170px; POSITION: absolute; TOP: 230px; HEIGHT: 42px
+}
+.slideSwitch UL {
+	MARGIN-TOP: 5px; MARGIN-LEFT: 18px
+}
+.slideSwitch LI {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 11px; BACKGROUND: #333; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 5px; CURSOR: hand; COLOR: #fff; PADDING-TOP: 0px
+}
+.slideSwitch LI.selected {
+	BACKGROUND: url(slidebaron.gif) repeat-x left top; COLOR: #333
+}
+.clear {
+	CLEAR: both
+}

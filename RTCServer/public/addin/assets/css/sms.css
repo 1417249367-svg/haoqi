@@ -1,0 +1,40 @@
+body{margin:0px; overflow:hidden ;}
+
+.mypanel{border-radius:4px;border:1px solid #999999;margin:0px;width:auto;}
+.mypanel-title{border-radius:4px 4px 0px 0px;background:#fff url(../img/bg_out.png) left top repeat-x;padding:5px;}
+.mypanel-body{padding:5px;}
+
+.section{padding:10px;}
+.padding{padding:5px;}
+.input-search{padding:2px 0px 2px 25px; background:#fff url(../img/icon_search.png) 5px center no-repeat;height:25px; line-height:20px;border-radius:10px;}
+
+
+.box-form{margin-right:340px; background:#f3f3f3;}
+.box-select{position:absolute ;width:320px; right:10px;top:0px;}
+
+.sms-info label{ line-height:30px;}
+
+.dotlist{margin:0px;padding:0px;}
+.dotlist li{float:left;margin:0px;padding:0px 10px 0px 4px; list-style-type:none;color:#fff; background:#52687e;border-radius:4px;margin-right:5px;margin-bottom:2px;}
+.dotlist li span{float:left;padding:2px;}
+.dotlist li i{float:right;width:10px;height:20px; background:url(/static/img/delete_white.png) center center no-repeat;}
+
+
+.nav-tabs{ background:url(../img/bg_tabs.png);border-width:0px;height:52px;padding-left:10px;}
+.nav-tabs li{padding:0px;margin:0px;margin-top:9px;}
+.nav-tabs li a{height:38px;width:125px; text-align:center ;color:#333;border-width:0px;padding:0px;}
+.nav-tabs li a span{line-height:38px;}
+.nav-tabs li a:hover{border-width:0px; background:none;}
+.nav-tabs li.active a{background:url(../img/bg_tabs_active.png) left top no-repeat;border-width:0px;}
+
+.btn{background:url(../img/bg_btn.png);color:#333; line-height:25px;padding:0px 20px;border-color:#999999;}
+
+.icon_mail{background:url(../img/icon_mail.png) left center no-repeat;padding-left:28px}
+.icon_mail_history{background:url(../img/icon_mail_history.png) left top no-repeat;padding-left:28px;}
+
+.flat-tabs{ background:#e9e9e9;}
+.flat-tabs ul{margin:0px;padding:0px;}
+.flat-tabs li{float:left; list-style-type:none;padding:4px; }
+.flat-tabs li a{float:left; color:#333;padding:0px 15px;}
+.flat-tabs li a:active{ text-decoration:none;}
+.flat-tabs li.active a{border:1px solid #a9a9a9;border-radius:2px; background:#d8d8d8;}

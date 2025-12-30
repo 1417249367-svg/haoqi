@@ -1,0 +1,138 @@
+html {height: 100%;width: 100%;}
+body {height: 100%;margin: 0;padding: 0;overflow-y: hidden;font-size: 14px;font-weight: 100;
+	  font-family:PingFang SC,Microsoft YaHei,Microsoft JhengHei,Source Han Sans SC,Noto Sans CJK SC,Source Han Sans CN,Noto Sans SC,Source Han Sans TC,Noto Sans CJK TC,Hiragino Sans GB,sans-serif;;
+}
+form {height: 100%;}
+.topbar{position: absolute;z-index:100;width: 100%;height:30px;color:#fff;}
+.topbar.text{background: #2f5b9c;}
+.topbar.presentation{background: #ff821c;}
+.topbar.spreadsheet{background: #217346;}
+
+.topbar.text .logo:before {content: "W";}
+.topbar.presentation .logo:before {content: "P";}
+.topbar.spreadsheet .logo:before {content: "X";}
+
+.topbar .left .item{line-height: 30px;height: 30px;float: left;}
+.topbar .left .title{margin-left: 10px;}
+.topbar .left .time{margin-left: 10px;font-size:9pt;color:#999;}
+.topbar .left .logo {
+	width: 35px;
+	padding-right: 4px;
+	text-shadow: 0 0 4px #fff;
+	text-align: center;
+	background: rgba(255,255,255,0.2);
+	font-style: italic;
+	font-weight: 800;
+	font-size: 18px;
+	cursor:pointer;
+}
+.topbar .left .logo:hover{
+	cursor:pointer;
+	background: rgba(255,255,255,0.4);
+}
+.topbar .photo{width:20px;height:20px;border-radius:30px;margin-right:10px;}
+.topbar a.dropdown-toggle{color:#fff;}
+.topbar.text a.dropdown-toggle:active{ background-color:#2f5b9c;}
+.topbar.presentation a.dropdown-toggle:active{ background-color:#ff821c;}
+.topbar.spreadsheet a.dropdown-toggle:active{ background-color:#217346;}
+
+.navbar-nav>li>a{padding-top:5px;padding-bottom:5px;line-height:20px}
+.navbar-nav>li>a{color:#fff}
+.navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>li>a:focus{color:#fff;background-color:transparent}
+
+#sidebar .navigate{display:block;margin:0px;padding:0px;color:#fff;padding:8px 15px; text-indent:0.5em;padding-left:15px;border-bottom:1px solid #d8dce5;background-color:#4598ff;}
+#sidebar li .active{background:#ced4e0;}
+#sidebar li .dtime{font-size:8pt;padding-left:5px;}
+#sidebar li .description{font-weight:normal;font-size:9pt;color:#999;padding-left:15px;}
+
+.toolbar_title{margin:0 auto;width:400px;height:50px;line-height:25px;}
+#toolbartitle{margin-right:15px;font-size:14pt;}
+
+.content{position: absolute;z-index:80;top: 0px;left: 0;right: 0;bottom: 0;}
+
+/* 触发弹窗图片的样式 */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ 
+#myImg:hover {opacity: 0.7;}
+ 
+/* 弹窗背景 */
+.myModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+ 
+/* 图片 */
+.myModal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+ 
+/* 文本内容 */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+ 
+/* 添加动画 */
+.myModal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+ 
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+ 
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+ 
+/* 关闭按钮 */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+ 
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+ 
+/* 小屏幕中图片宽度为 100% */
+@media only screen and (max-width: 700px){
+    .myModal-content {
+        width: 100%;
+    }
+}

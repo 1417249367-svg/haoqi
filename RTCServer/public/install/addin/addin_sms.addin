@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312"?>
+<BODY>
+	<BigAntCAddin Name="SMS" Site="128" TargetType="4">
+		<Target><![CDATA[http://[AntServer]:8000/addin/sms_send.html?loginname=[LoginName]&password=[pw5]]]></Target>
+		<DisplayName>SMS</DisplayName><Desc><![CDATA[BigAnt SMS]]></Desc>
+		<Image>http://[AntServer]:8000/install/addin/addin_sms.png</Image>
+	</BigAntCAddin>
+</BODY>

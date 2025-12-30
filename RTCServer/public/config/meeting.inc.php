@@ -1,0 +1,5 @@
+<?php
+define("MEETING_SERVER_PORT",36500);
+define("MEETING_TRANSFER_PORT",36501);
+define("MEETING_FILE_PORT",6663);
+?>

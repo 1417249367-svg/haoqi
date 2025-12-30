@@ -1,0 +1,14 @@
+.modal-dialog
+{
+  margin:50px auto;
+  width: 600px;/* your width */
+}
+
+#nav_account{position:absolute;right:10px;top:0px;}
+﻿#nav_account li{float:left;}
+﻿#nav_account li a{float:left;}
+﻿#nav_account li ul li{float:none;}
+
+.navbar .container,#content .container{width:100%;}
+
+#content{padding-top:0px;}

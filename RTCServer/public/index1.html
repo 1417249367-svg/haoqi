@@ -1,0 +1,270 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Downloads</title>
+<meta name="keywords" content="Enterprise im, enterprise instant messaging, instant messaging, enterprise instant messaging" />
+<meta name="description" content="Contacts on RTC to build the country's most outstanding LAN chat tool" />
+<!-- 调用样式表 -->
+<link rel="stylesheet" href="/templets/mobantianxia/images/style.css" type="text/css" media="all">
+<script type="text/javascript" src="/static/js/jquery.js"></script>
+<script type="text/javascript" src="/templets/mobantianxia/images/loopedcarousel.js"></script>
+<script type="text/javascript">
+$(function() {
+// carousel
+$('.loopedCarousel').loopedCarousel();
+});
+function AdminLogin(){
+	  var urlpath="http://"+window.location.hostname+":98";
+	  window.open(urlpath);  
+}
+</script>
+
+<script type="text/javascript" src="/templets/mobantianxia/images/tabs.js"></script>
+<script language="javascript" type="text/javascript" src="/include/dedeajax2.js"></script>
+<script type="text/javascript">
+function CheckLogin(){
+	  var taget_obj = document.getElementById('_userlogin');
+	  myajax = new DedeAjax(taget_obj,false,false,'','','');
+	  myajax.SendGet2("/member/ajax_loginsta.php");
+	  DedeXHTTP = null;
+}
+</script>
+<script language="javascript" type="text/javascript">
+<!-- 
+function ResumeError()  
+{ 
+    return true; 
+} 
+window.onerror = ResumeError; 
+function check()
+{
+if(document.search.keyword.value.length==0){
+     alert("Please enter the information!");
+     document.search.keyword.focus();
+     return false;
+    }
+
+}
+// --> 
+
+
+// 导航下拉菜单
+
+$(function(){
+nav_curr();	   
+   
+//下拉菜单
+$("#menu > li:has(.subMenu)").hover(function(){
+//$("#menu > li > a").removeClass("hover");	
+$(this).find("a").eq(0).addClass("hover");
+$(this).find(".subMenu").stop(true,true).fadeIn(300);
+},function(){
+$(this).find("a").eq(0).removeClass("hover");
+$(this).find(".subMenu").stop(true,true).fadeOut(300);
+nav_curr();
+});		
+
+//导航当前项
+function nav_curr(){
+for(var i=0;i<5;i++){
+navText=$("#menu > li > a").eq(i).attr("title");	
+if(navText==navCurrent){
+$("#menu > li > a").eq(i).addClass("hover");
+}
+}
+}
+
+});
+
+var navCurrent="Home";
+</script>
+
+<style type="text/css">
+
+#banner{height:250px;}
+#info {margin:34px 20px 0px 0px;}
+#top_nav {padding:8px 10px 6px;}
+#right {background:none;}
+</style>
+
+</head>
+<body>
+<div id="body">
+<div id="main">
+<!-- 页头开始 -->
+<div id="topmenu">
+      <a href="#" style="width:80px;float:right;" onclick="AdminLogin();"><span class="blank30"><strong>Backstage management</strong></span></a>
+      <a href="http://www.haoqiniao.cn/docs/" target="_blank" style="width:80px;float:right;">Development Documentation</a>
+<div class="tel">
+<h5>&nbsp;&nbsp;&nbsp;&nbsp;Official website:&nbsp;&nbsp;<a href="http://www.rtcim.com" target="_blank">www.rtcim.com</a></h5>
+</div>
+</div>
+<div id="logo1"><a href="http://www.rtcim.com" title="RTC"><span><h1>RTC</h1></span></a></div>
+
+<div class="clearall"></div>
+
+<div id="top_nav">
+<div id="nav">
+<ul id="menu">
+<li><a href="/home1.html" class="one">Home</a></li>
+<li><a href="/index1.html" class="one on">Downloads</a></li>
+</ul>
+</div>
+</div>
+<body>
+<SCRIPT src="/templets/mobantianxia/images/jquery.featureList-1.0.0.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="/templets/mobantianxia/images/kxbdSuperMarquee.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+
+function tencent_wpa(uuu,gh,g_corp,useqq,newpop)
+{
+var g_noHeader = true;
+var g_noFooter = true;
+var g_vsWidth = "570px";
+var g_vsHWidth = "644px";
+}
+
+$(document).ready(function() {
+
+$.featureList(
+$("#banner_current li a"),
+$("#output li"), {
+start_item	:	0
+}
+);			
+$('#customer-list').kxbdSuperMarquee({
+//isMarquee:true,
+//duration:20,
+ 				isEqual:false,
+distance:22,
+time:1,
+direction:'up'
+});
+$('#news-list').kxbdSuperMarquee({
+isEqual:false,
+distance:16,
+time:2,
+//btnGo:{up:'#goU',down:'#goD'},
+direction:'up'
+});
+
+
+});	
+</SCRIPT>
+
+<div id="right" style="float:left;">
+
+<div class="blank10"></div>
+
+<div id="position">
+<strong>Current location：</strong>Downloads</div>
+<div id="text" class="text" style="width:930px;margin:15px;">
+
+<div id="content" style="width:930px;" class="text">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="31%" valign="top"><a href="templets/xiazai/RTC.zip"><img src="templets/mobantianxia/images/down_ico.jpg" width="9" height="12" /><strong>PC Version - Client</strong></a>
+        <p isimg="false">System Environment WinNT /</p>
+        <p isimg="false">2K/XP/</p>
+        <p isimg="false">vista/2008/7/8<br />
+          Version: 6.0 Version<br />
+          Size: 28.7 M</p></td>
+      <td width="28%" valign="top"><p><a href="templets/xiazai/rtc_android.apk"><img src="templets/mobantianxia/images/down_ico.jpg" width="9" height="12" /><strong>Android</strong></a></p>
+        <p isimg="false">System Environment:Android
+          <br />
+          Release：6.0</p>
+        <p isimg="false">Size：10.2 M<br />
+          </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p></td>
+      <td width="23%" valign="top"><a href="http://itunes.apple.com/cn/app/id6747035211" target="_blank"><img src="templets/mobantianxia/images/down_ico.jpg" width="9" height="12" /><strong>App Store Official Download</strong></a><br /><a href="http://qiyeim.com/xiazai/rtc_iphone.ipa"><img src="templets/mobantianxia/images/down_ico.jpg" width="9" height="12" /><strong>IOS Edition (Jailbreak)</strong></a>
+        <p isimg="false">System Environment:IOS<br />
+          Release：6.0<br />
+          Size：14.9 M</p></td>
+      <td width="18%"><p id="img_id"></p>
+        <p>扫一扫下载手机版</p></td>
+      </tr>
+    <tr>
+      <td><div isimg="false">
+        <p>PC When the end Login:<br />
+          Click the &quot;Network&quot; and enter</p>
+        <p>IP / domain / computer name.</p>
+      </div></td>
+      <td colspan="3"><div isimg="false">
+        <div isimg="false">
+          <div isimg="false">
+            <p>Mobile terminal login: Click the &quot;Network&quot; and enter the external network IP / domain name.</p>
+            <p>Description: ios version can be downloaded from the app store, search for &quot;contacts through&quot;</p>
+          </div>
+        </div>
+      </div></td>
+    </tr>
+  </table>
+</div>
+</div>
+
+
+</div>
+<div id="right" style="float:left;">
+  
+  <div class="blank10"></div>
+
+<div id="position">
+<strong>Current location：</strong>Service</div>
+<div id="text" class="text" style="width:930px;margin:15px;">
+
+<div id="content" style="width:930px;" class="text">
+  <p>1, when you need to configure the default client, you can refer to the contact through RTC SDK tutorial client configuration, the configuration file DataBase.ini; when you need special mobile client installation package, please contact us, such as the need to set the default server IP, this benefit is not required to tell employees how much the server IP directly enter the username and password so that employees can log.</p>
+  <p>2, both products are not paid, if you encounter technical problems with the process, please contact us.</p>
+  <p>3, if necessary with existing management systems (such as messaging systems, corporate email, erp, oa, crm) integration, since the development of contacts on RTC plug-in has a certain professional requirements, if there is a demand in this area, please contact us .</p>
+  <p>4. If you need to import existing systems (OA, etc.) employee information to contact through RTC system, please contact us.</p>
+</div>
+<div class="blank30"></div>
+</div>
+
+
+</div>
+<div class="clear"></div>
+</div>
+
+<script> 
+function resizeImg(obj)
+{ 
+var obj = document.getElementById(obj); 
+var objContent = obj.innerHTML;
+var imgs = obj.getElementsByTagName('img'); 
+if(imgs==null) return; 
+for(var i=0; i<imgs.length; i++) 
+{ 
+if(imgs[i].width>parseInt(obj.style.width)) 
+{ 
+imgs[i].width = parseInt(obj.style.width);
+} 
+} 
+} 
+window.onload = function() {resizeImg('content');
+} 
+var url = "http://"+window.location.hostname+":99/m.html" ;
+var html =  "<img src='http://"+window.location.hostname+":98/public/qrcode.html?myid=public&size=5&encode=1&text=" + escape(url) + "'>"
+$("#img_id").html(html);
+</script>
+<div class="clear"></div>
+<div id="footer">
+<div class="main">
+<div class="about">
+</div>
+</div>
+<div class="copy">	
+<div class="main">
+<div class="foot_logo1"></div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="http://127.0.0.1:98/livechat/getjs/?ipaddress=http://127.0.0.1:97"></script>	
+</body>
+</html>

@@ -1,0 +1,15 @@
+delete from Users_WinInfo
+delete from Users_Role
+delete from Users_Ro
+delete from Users_Pic
+delete from Users_ID
+delete from Role
+delete from LeaveFile
+delete from Messeng_Text
+delete from MessengClot_Text
+delete from Col_Ro
+delete from Col_Form
+delete from ClotFile
+delete from Clot_Ro
+delete from Clot_Pic
+delete from Clot_Form

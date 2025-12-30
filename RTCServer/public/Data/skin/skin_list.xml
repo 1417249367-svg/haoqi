@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <row Id="1" Name="Gray World" Picture="/data/skin/img/1.png" IsCurrent="0"/>
+    <row Id="2" Name="Messenger Live" Picture="/data/skin/img/2.png" IsCurrent="1"/>
+    <row Id="3" Name="MyOA" Picture="/data/skin/img/3.png" IsCurrent="0"/>
+    <row Id="4" Name="Pink Love" Picture="/data/skin/img/4.png" IsCurrent="0"/>
+    <row Id="5" Name="Red Business" Picture="/data/skin/img/5.png" IsCurrent="0"/>
+    <row Id="6" Name="TM Messenger" Picture="/data/skin/img/6.png" IsCurrent="0"/>
+    <row Id="7" Name="WindowsFX" Picture="/data/skin/img/7.png" IsCurrent="0"/>
+</data>

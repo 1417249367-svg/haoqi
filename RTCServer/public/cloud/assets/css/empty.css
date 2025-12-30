@@ -1,0 +1,64 @@
+/* 空白文件 */
+#file_empty {
+    position: absolute;
+    top: 4em;
+    left: 0px;
+    display: none;
+    width: 100%;
+    padding: 0.25em 0 0 0.25em;
+}
+
+.g_empty {
+    display: none;
+    position: relative;
+}
+
+.g_empty .empty_box {
+    position: absolute;
+    left: 45%;
+    font-family: "Microsoft Yahei";
+}
+
+/*.sort_folder_empty .empty_box {
+    margin-top: -180px;
+}
+*/
+.g_empty .ico {
+    margin: 0 auto;
+    height: 7em;
+    background-image: url("../img/g-empty.png");
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.sort_folder_empty .ico {
+    background-position: center 0;
+}
+
+.g_empty .title {
+    height: 3em;
+    line-height: 3em;
+    color: #AFB5BF;
+    font-size: 2em;
+    text-align: center;
+}
+
+.sort_folder_empty .title {
+    height: 2em;
+    line-height: 2em;
+    font-style: 1.4em;
+}
+
+.g_empty .content {
+    height: 3em;
+    line-height: 3em;
+    color: #AFB5BF;
+    font-style: 1em;
+    text-align: center;
+}
+
+.sort_folder_empty .content {
+    height: 2em;
+    line-height: 2em;
+    font-style: 1em;
+}

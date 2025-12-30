@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312"?>
+<BODY>
+  <BigAntVAddin Name="BigAnt迷你版" Site="16"  Flag="16" TargetType="3" Height="500" Width="600">
+    <Target>http://[AntServer]:[Port]/addin/board_new.html?loginname=[LoginName]&amp;password=[pw5]</Target>
+    <DisplayName>BigAnt迷你版</DisplayName>
+    <Desc>BigAnt迷你版</Desc>
+  </BigAntVAddin>
+</BODY>

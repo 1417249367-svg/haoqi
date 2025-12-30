@@ -1,0 +1,58 @@
+fieldset{margin:0px;padding:0px;width:95%;padding-bottom:10px;}
+legend{margin-left:-10px;margin-bottom:5px;}
+
+#header{margin:0px;padding:0px; position:fix;left:0px;top:0px;}
+
+#nav_account{position:absolute;right:10px;top:0px;}
+#nav_account li{float:left;}
+#nav_account li a{float:left;}
+#nav_account li ul li{float:none;}
+
+#sidebar ul{position:static;}
+#sidebar ul li ul{ position:static;}
+#sidebar{margin-top:0px;}
+.sidenav li{border-width:0px;}
+.sidenav li a{height:25px;}
+
+#main{width:1120px;}
+
+
+.dropdown-menu a{width:120px;}
+
+
+
+
+.btn{padding:3px 10px;}
+.form-control{padding:4px 10px;}
+
+.input-group .form-control{width:185px;}
+.btn-group{margin-top:-4px;}
+td .btn{padding:3px 5px;}
+
+.nav-tabs{margin:5px 0px;}
+
+
+.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-8,.col-xs-10{float:left;padding:0px;margin:0px;}
+.form-group .col-xs-2{width:15%;padding:0% 1%;}
+.form-group .col-xs-4{width:26%;}
+.form-group .col-xs-10{width:70%;}
+.form-group .col-xs-3{width:20%;margin-left:5%;}
+.form-group .col-xs-8{width:65%;}
+.form-group .col-xs-offset-3{margin-left:25%;}
+
+.col-xs-6{width:47%;padding:8px 0px;float:left;}
+
+
+.table td{padding:0px 5px;border-bottom:1px solid #ccc;}
+
+.pagination{height:40px;}
+.pagination li{float:left;margin-left:2px;border:1px solid #ccc;}
+.pagination li a{float:left;padding:5px 8px;border-width:0px;}
+.pagination li.disabled{background:#fff;border:1px solid #ccc;}
+.pagination li.disabled a{color:#999;}
+
+.modal-body{margin-top:-20px;}
+.modal-body .nav-tabs{margin-top:0px;}
+
+.col2{width:49%;}
+

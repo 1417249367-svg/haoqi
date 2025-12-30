@@ -1,0 +1,153 @@
+/*app表单css合集*/
+
+input{ width: auto; height: auto; min-height:2em; font-size:1em; line-height:normal; text-indent:0em; float: left; display: block; position: relative; z-index:999; border-width:0px; background-color:rgba(255, 255, 255, 0); outline:medium; color:#656565;}
+
+textarea{ width: auto; height: auto; font-size:0.9em; line-height:1.4em; text-align:left; float: left; display: block;  border-width:0px; background-color:rgba(255, 255, 255, 0); outline:medium;}
+
+.texhi{ width:93%; height:auto; min-height:32px; max-height:144px; word-wrap: break-word;
+ overflow-x: hidden; overflow-y: auto; padding-top:6px; font-size:14px; line-height:20px; text-align:left; float: none; margin:0px auto; clear:none; outline:medium;}
+.texhi textarea{ width: auto; height: auto; font-size:14px; line-height:20px; text-align:left; float: left; display: block;  border-width:0px; background-color:rgba(255, 255, 255, 0); outline:medium;}
+
+select{ width: auto; height:2.3em; float: none; line-height: normal; font-size:0.9em; margin-top:0.2em; margin-bottom:0.2em; -webkit-border-radius:0.5em ; -moz-border-radius:0.5em; border-width:0px 1.8em 0px 0.3em; border-color:rgba(255, 255, 255, 0); -webkit-border-image:url("img/bord3.png") 0 21 0 5;  -moz-border-image:url("img/bord3.png") 0 21 0 5; background:no-repeat;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color:#a1a1a1; font-size:1em;line-height:normal;
+}
+.klmut{ width:90%; height:35px; float: left; margin:4px auto 0px 6%; clear:none; background:-webkit-linear-gradient(270deg, rgb(247, 247, 247) 0%, rgb(234, 234, 234) 100%); border:rgba(207,207,207,0.8) solid 1px; border-radius:4px;}
+	.klmut p{ width:90%; height:auto; float:none; font-size:17px; color: rgb(240, 88, 39); line-height:1em; margin: 8px auto auto auto; clear:none; text-align:center; font-weight:700; overflow:hidden; display:block;}
+
+.a9_box1 select{ width: auto; height:32px; float: none; line-height: normal; font-size:14px; margin-top:3px; margin-bottom:3px; -webkit-border-radius:8px ; -moz-border-radius:8px; border-width:0px 28px 0px 4px; border-color:rgba(255, 255, 255, 0); -webkit-border-image:url("img/bord3.png") 0 21 0 5;  -moz-border-image:url("img/bord3.png") 0 21 0 5; background:no-repeat;}
+
+/*选择表单样式*/
+
+
+/*.checkbox, .radio {
+	
+    margin-right: 0em;
+	margin-left:0.5em;
+    padding: 0;
+    display: inline-block;
+	float:left;
+}
+.checkbox label, .radio label {
+    width: 1.3em;
+    height: 1.3em;
+    display: block;
+    cursor: pointer;
+	margin-top:0.1em; margin-right:0.1em; margin-left:0.4em;
+	background: url(img/chk_1a.png) no-repeat center center;
+	background-size:100% 100%;
+}
+.radio label {border-radius: 100%; margin-top:0.6em; margin-right:0.5em; margin-left:0.3em;}
+.checkbox input:checked + label:before {
+    width: 1.3em;
+    height: 1.3em;
+    display: block;
+	background: url(img/chk_1b.png) no-repeat center center;
+	background-size:100% 100%;
+	content: attr(data-on);
+	color:rgba(255,255,255,0)
+}
+.radio input:checked + label:before {
+    content: "";
+    display: block;
+    width: 1.3em;
+    height: 1.3em;
+    position: relative;
+}
+.checkbox input, .radio input {
+    display: none;
+}*/
+
+/*勾选效果*/
+/*.checkbox2, .radio {
+	
+    margin-right: 0em;
+	margin-left:0.5em;
+    padding: 0;
+    display: inline-block;
+	float:left;
+}
+.checkbox2 label, .radio label {
+    width: 1.3em;
+    height: 1.3em;
+    display: block;
+    cursor: pointer;
+	margin-top:0.1em; margin-right:0.1em; margin-left:0.4em;
+	background: url(img/chk_2a.png) no-repeat center center;
+	background-size:1.3em 1.3em;
+}
+.radio label {border-radius: 100%; margin-top:0.6em; margin-right:0.5em; margin-left:0.3em;}
+.checkbox2 input:checked + label:before {
+    width: 1.3em;
+    height: 1.3em;
+    display: block;
+	background: url(img/chk_2b.png) no-repeat center center;
+	background-size:1.3em 1.3em;
+	content: attr(data-on);
+	color:rgba(255,255,255,0)
+}
+.radio input:checked + label:before {
+    content: "";
+    display: block;
+    width: 1.3em;
+    height: 1.3em;
+    position: relative;
+}
+.checkbox2 input, .radio input {
+    display: none;
+}*/
+
+/* RADIO */
+
+.regular-radio {
+	display: none;
+}
+
+.regular-radio + label {
+	float: left;
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 0.6em;
+	border-radius: 100%;
+	display: inline-block;
+	position: relative;
+	margin-left:0.8em;
+}
+
+.regular-radio:checked + label:after {
+	content: ' ';
+	width: 0.4em;
+	height: 0.4em;
+	border-radius: 100%;
+	position: absolute;
+	top: 0.11em;
+	background: #99a1a7;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 0.11em;
+	font-size: 1.9em;
+}
+
+.regular-radio:checked + label {
+	background-color: #e9ecee;
+	color: #99a1a7;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.regular-radio + label:active, .regular-radio:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.big-radio + label {
+	padding: 1em;
+}
+
+.big-radio:checked + label:after {
+	width: 1.2em;
+	height: 1.2em;
+	left: 0.11em;
+	top: 0.11em;
+}

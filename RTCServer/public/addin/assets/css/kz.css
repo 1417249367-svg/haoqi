@@ -1,0 +1,270 @@
+.kz_Container {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+	padding-bottom:1em;
+}
+
+.kz_box {
+    float: none;
+    height: auto;
+    margin: 1em auto 0px;
+    clear: none;
+    width: 100%;
+    min-height: 150px;
+}
+
+.kz_box1 {
+	float: none;
+    height: auto;
+    margin: 0px auto 0.8em auto;
+    clear: none;
+    width: 100%;
+    min-height: 2.8em;
+    min-width: 0px;
+    background-color: rgba(255,255,255,1.00);
+    background-image:url("img/poit10.png");
+    background-attachment: scroll;
+    -webkit-background-size: auto 1.2em;
+    background-size: auto 1.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-position: 98% 50%;
+    background-repeat: no-repeat no-repeat;
+	border-left: 0 solid rgba(216,216,216,1.00);
+	border-right: 0 solid rgba(213,213,213,1.00);
+	border-bottom: 1px solid rgba(213,213,213,1.00);
+	border-top: 1px solid rgba(213,213,213,1.00);
+}
+
+.kz_box1b {
+    float: none;
+    height: 2.6em;
+    margin: 0px auto 0.8em;
+    clear: none;
+    width: 100%;
+    min-height: 0px;
+    min-width: 0px;
+    background-color: rgb(255, 198, 179);
+    background-image:url("img/poit10.png");
+    background-attachment: scroll;
+    -webkit-background-size: auto 1.2em;
+    background-size: auto 1.2em;
+    z-index: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-position: 98% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+.kz_text {
+    float: left;
+    font-size: 1em;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1em;
+    margin: 0.7em 0px 0px 0.8em;
+    clear: none;
+    min-height: 0px;
+    min-width: 0px;
+    overflow: hidden;
+	color:  rgba(98,98,98,1.00);
+}
+
+.mp_tx {
+    float: left;
+    font-size: 0.9em;
+    width: 80%;
+    height: auto;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1.6em;
+	text-indent:0em;
+    margin:1em auto 0em 0em ;
+    clear: none;
+    min-height: 0px;
+    min-width: 0px;
+    color: rgb(13, 115, 188);
+	border-top:rgba(225,225,225,1.00) dashed 1px;
+	padding-bottom:0.3em;
+	padding-top:0.5em;
+	padding-left:0.9em;
+}
+.mp_txb {
+    float: left;
+    font-size: 0.9em;
+    width: 80%;
+    height: auto;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1.6em;
+	text-indent:0em;
+    margin:0.3em auto 0em 3em ;
+    clear: none;
+    min-height: 0px;
+    min-width: 0px;
+    color: rgb(13, 115, 188);
+	padding-bottom:0.3em;
+	padding-top:0.5em;
+	padding-left:0.9em;
+}
+
+.kz_text1 {
+    float: none;
+    font-size: 0.9em;
+    width: 90%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.4em;
+    margin: 0px auto;
+    clear: none;
+    min-height: 0px;
+    min-width: 0px;
+    color: rgb(143, 143, 143);
+}
+
+.kz_box2 {
+    float: none;
+    height: 6.1em;
+    margin: 0.8em auto 0em auto;
+    clear: none;
+    width: 94%;
+    min-height: 5em;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 0.15em 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0.15em 0px 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.kz_box2a {
+    float: none;
+    height: 6.1em;
+    margin: 0px 0.3em 0px 0.3em;
+    clear: none;	
+    width: auto;
+    min-width: 2em;
+	max-width: 18em;
+    min-height: 5em;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 0.15em 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0.15em 0px 0px;
+    position: relative;
+	cursor:pointer;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    overflow: hidden;
+	border: 1px solid #ccc;
+}
+
+.kz_box5 {
+    float: none;
+    height: 1.9em;
+    margin: 0px auto;
+    clear: none;
+    width: 100%;
+    min-height: 0px;
+    min-width: 0px;
+/*    background-color: rgba(235,235,235,1.00);
+*/    border-bottom-left-radius: 0.3em;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0em;
+    border-bottom-right-radius: 0.3em;
+	
+	border-top: rgba(235,235,235,1.00) 1px solid;
+}
+
+.kz_box6 {
+    float: right;
+    height: 1.5em;
+    margin: 0em 1.3em 0px 0px;
+    clear: none;
+    width: 1.5em;
+    min-height: 0px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+.kz_box6b {
+    float: right;
+    height: 1.5em;
+    margin: 0.2em 1em 0px 0px;
+    clear: none;
+    width: auto;
+	min-width:2.6em;
+    min-height: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5em;
+}
+
+.kz_box6b p{
+	height: 1.5em;
+    margin:0.45em auto 0px auto;
+    clear: none;
+    width: 90%;
+	font-size:0.8em;
+	font-weight:700;
+	line-height:1em;
+	color:rgba(0,106,144,1.00);
+	text-align:center;
+	}
+
+.kz_image {
+    float: none;
+    width: 1.3em;
+    max-width: 100%;
+    height: 1.3em;
+    margin: 0.2em auto 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+.kz_box4 {
+    float: none;
+    height: 4.2em;
+    margin: 0px auto;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 0px;
+}
+
+.kz_box4a {
+    float: left;
+    height: 4.2em;
+    margin: 0px auto;
+	padding-left:0.5em;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 0px;
+}
+
+
+

@@ -1,0 +1,75 @@
+body {
+	text-align: center;
+	padding-top: 60px;
+	background: url(/static/img/wallpaper.jpg);
+	background-size: 100% 100%;
+}
+
+div {
+	text-align: left;
+}
+
+fieldset {
+	border-width: 0px;
+	padding: 0px;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+legend {
+	font-size: 16px;
+	width: auto;
+	margin: 5px 0px;
+	padding: 0px;
+	background-color: #f9f9f9;
+}
+
+.step {
+	width: 600px;
+	margin: 10px auto;
+	background: #f9f9f9 url(../img/box_bg.png);
+	border-radius: 8px;
+	box-shadow: 0 0 30px 3px #333;
+}
+
+.step-top {
+	padding: 30px 40px;
+	border-radius: 8px 8px 0px 0px;
+	font-size: 24px;
+	background: #f9f9f9 url(../img/box_header.png);
+	color: #fff;
+}
+
+.step-body {
+	padding: 20px 30px;
+	height: 240px;
+}
+
+.step-bottom {
+	padding: 15px 30px;
+	text-align: right;
+	border-radius: 0px 0px 8px 8px;
+	background: url(../img/box_footer.png) left bottom repeat-x;
+}
+
+.control-label {
+	width: 80px;
+}
+
+.control-value {
+	margin-left: 100px;
+}
+
+.step {
+	display: none;
+}
+
+.icon_success {
+	padding: 45px;
+	background: url(../img/icon_success.png) center center no-repeat;
+}
+
+.icon_fail {
+	padding: 45px;
+	background: url(../img/icon_fail.png) center center no-repeat;
+}

@@ -1,0 +1,30 @@
+*{ font-family:Î¢ÈíÑÅºÚ;font-size:12px;}
+a,a:hover{color:#3877b6}
+
+fieldset{margin:0px;padding:5px;border:1px solid #ccc;margin-bottom:5px;}
+legend{font-weight:bold;margin:0px;padding:5px;}
+
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+.mr{margin-right:5px;}
+
+.user-info{margin:0px;padding:10px;}
+.user-photo{width:70px;}
+.user-photo img{border:1px solid #ccc;padding:3px;width:60px;height:60px;}
+.user-intro ul{margin:0px;padding:0px;}
+.user-intro ul li{ list-style-type:none;margin:0px;padding:0px;color:#999; line-height:20px;}
+
+
+.link-list{margin:0px;padding:0px;}
+.link-list li{ list-style-type:disc; color:#999;margin-left:10px;padding:2px 0px; list-style-position:inside;}
+.link-list li a{text-decoration:none;}
+.link-list li a:hover{text-decoration:underline;}
+.link-list li small{color:#999;}
+
+.link-list li.no-style{ list-style-type:none;}
+.btn-aside{text-align:center ; line-height:18px; display:block ; background:url(../img/btn.png) left bottom repeat-x;border:1px solid #ccc;padding:0px;}
+.txt{border:1px solid #ccc; background:#fff;}
+
+.kefu{text-decoration:none; margin:20px}
+.kefu:hover{text-decoration:underline;}

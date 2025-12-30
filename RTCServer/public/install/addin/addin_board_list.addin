@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312"?>
+<BODY>
+  <BigAntCAddin Name="公告查询" Site="4" Flag="16" TargetType="3"  Width="1000" Height="600">
+    <Target>http://[AntServer]:[Port]/addin/board_list.html?loginname=[LoginName]&amp;password=[pw5]</Target>
+    <DisplayName>公告查询</DisplayName>
+    <Desc>公告查询</Desc>
+  </BigAntCAddin>
+</BODY>

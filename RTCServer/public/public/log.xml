@@ -1,0 +1,358 @@
+2021-04-28 19:58:34： 
+发送成功
+2021-04-30 13:52:14： 
+发送成功
+2021-04-30 13:52:20： 
+发送成功
+2021-04-30 14:06:24： 
+发送成功
+2021-04-30 14:06:26： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 608b9e62-7475484d-708ea323"}
+2021-04-30 14:07:37： 
+发送成功
+2021-04-30 15:00:11： 
+发送成功
+2021-04-30 15:07:32： 
+发送成功
+2021-05-05 12:50:40： 
+发送成功
+2021-05-05 14:32:46： 
+发送成功
+2021-05-05 14:32:48： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60923c0f-580bf98d-5f9a4445"}
+2021-05-05 20:06:09： 
+发送成功
+2021-05-05 20:06:23： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60928a3f-31d2daa3-74da7e10"}
+2021-05-05 20:54:40： 
+发送成功
+2021-05-07 23:22:27： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60955b33-7848b571-38747de1"}
+2021-05-07 23:31:18： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60955d45-065a7a65-474d6b53"}
+2021-05-08 00:41:59： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60956dd7-00447b27-2bb3cc08"}
+2021-05-08 01:05:29： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60957359-5914d278-42fb8ccc"}
+2021-05-08 01:05:40： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60957364-095bf641-4406a631"}
+2021-05-08 18:17:42： 
+发送成功
+2021-05-08 18:17:45： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60966548-3ae207e0-3a0edd14"}
+2021-05-08 18:18:18： 
+发送成功
+2021-05-08 19:01:09： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60966f74-3b31ff13-2bbb8e91"}
+2021-05-08 19:14:12： 
+发送成功
+2021-05-08 19:14:30： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60967296-1d40085d-37a2777f"}
+2021-05-08 19:14:44： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 609672a3-70644eb0-3b54450e"}
+2021-05-08 19:15:16： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 609672c4-09d30c20-17277e53"}
+2021-05-08 19:21:14： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6096742a-0b5e8972-5fd6e78c"}
+2021-05-08 19:26:12： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60967554-6dacc9e8-2dfca30f"}
+2021-05-08 19:30:10： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60967642-7966e05c-71aee256"}
+2021-05-08 19:34:43： 
+发送成功
+2021-05-08 19:35:05： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60967769-142bdf5d-40d1feef"}
+2021-05-08 19:37:53： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60967810-38b17622-1881d164"}
+2021-05-08 19:44:48： 
+{"errcode":40003,"errmsg":"invalid openid rid: 609679b0-077ca24c-06255ae3"}
+2021-05-08 19:45:37： 
+{"errcode":40003,"errmsg":"invalid openid rid: 609679e1-53aca61e-610150cb"}
+2021-05-08 19:47:54： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60967a6a-32d7357b-32e1f3ac"}
+2021-05-08 19:56:03： 
+发送成功
+2021-05-08 19:56:15： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60967c5f-7c676680-71f755c2"}
+2021-05-08 19:56:20： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60967c64-28cff99d-73626c4f"}
+2021-05-08 19:58:59： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60967d03-50f5fd72-6345396b"}
+2021-05-08 20:13:39： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60968072-4a011a6c-46d6e151"}
+2021-05-08 20:14:28： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 609680a4-12db285a-1cd4cf85"}
+2021-05-08 20:15:44： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 609680ef-30e5ce38-75640af8"}
+2021-05-08 20:15:48： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 609680f4-0d71df56-7dc9ac51"}
+2021-05-08 20:23:50： 
+发送成功
+2021-05-08 20:31:38： 
+{"errcode":40003,"errmsg":"invalid openid rid: 609684aa-12e833f8-70a7ab0f"}
+2021-05-08 20:45:23： 
+{"errcode":40003,"errmsg":"invalid openid rid: 609687e3-03b1f6a7-7812d435"}
+2021-05-08 20:47:39： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6096886a-57db5cc3-02c31d38"}
+2021-05-08 21:07:29： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60968d11-24274c16-3d4b3b56"}
+2021-05-08 21:07:56： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60968d2b-0f42678d-233dff82"}
+2021-05-08 21:10:24： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60968dc0-236cc592-4c6fff18"}
+2021-05-08 21:11:37： 
+发送成功
+2021-05-08 21:18:50： 
+发送成功
+2021-05-08 21:19:02： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60968fc6-5d33a760-34482d38"}
+2021-05-08 21:21:34： 
+发送成功
+2021-05-08 21:23:26： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 609690ce-2363a038-704e56c3"}
+2021-05-08 21:29:56： 
+发送成功
+2021-05-08 21:29:57： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60969255-72994ddc-2b08468a"}
+2021-05-08 21:34:08： 
+发送成功
+2021-05-08 21:42:53： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6096955d-32ee40f6-7ea05b94"}
+2021-05-08 21:43:10： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6096956e-3dbd65b3-4a500c4e"}
+2021-05-08 21:43:44： 
+发送成功
+2021-05-08 21:43:49： 
+发送成功
+2021-05-08 21:43:49： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60969595-5a381729-2dba5fd7"}
+2021-05-08 21:43:56： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6096959c-48fbae8e-11dc598d"}
+2021-05-08 21:44:02： 
+{"errcode":40003,"errmsg":"invalid openid rid: 609695a2-121c1f1d-2f6cdb3a"}
+2021-05-08 22:44:13： 
+发送成功
+2021-05-08 22:44:26： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6096a3ca-0ecca1dc-69c99d73"}
+2021-05-08 22:44:37： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6096a3d5-484c1b9d-4d40f5f6"}
+2021-05-08 23:08:02： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6096a952-7f48ccc9-17bdad24"}
+2021-05-08 23:43:43： 
+发送成功
+2021-05-08 23:43:48： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 6096b1b4-4331a12e-0426ac6c"}
+2021-05-08 23:43:51： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 6096b1b7-0bc8d108-1ec75589"}
+2021-05-09 10:37:57： 
+发送成功
+2021-05-09 10:38:13： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60974b15-793f9aa7-0050654f"}
+2021-05-09 10:43:05： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60974c39-4ba69ee1-28d3485b"}
+2021-05-09 10:43:09： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60974c3d-370cc529-3f989788"}
+2021-05-09 10:46:06： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60974cee-7d024d41-4932bc85"}
+2021-05-09 10:50:16： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60974de8-103ac4e5-50d235d4"}
+2021-05-09 13:05:43： 
+发送成功
+2021-05-09 13:53:08： 
+发送成功
+2021-05-09 13:55:06： 
+发送成功
+2021-05-09 13:56:58： 
+发送成功
+2021-05-09 13:57:17： 
+发送成功
+2021-05-09 13:57:23： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 609779c3-517cb32a-1af0105f"}
+2021-05-09 13:57:31： 
+{"errcode":40003,"errmsg":"invalid openid rid: 609779ca-167934cd-110e30c1"}
+2021-05-09 14:08:52： 
+发送成功
+2021-05-09 14:10:31： 
+发送成功
+2021-05-09 14:11:00： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60977cf3-68260296-66ff2c8b"}
+2021-05-09 14:19:14： 
+{"errcode":43002,"errmsg":"require POST method rid: 60977ee2-0ad33d17-3d046646"}
+2021-05-09 14:28:07： 
+发送成功
+2021-05-09 14:33:41： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60978245-195e09c6-78a8a924"}
+2021-05-09 14:36:16： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 609782e0-042d239e-60eb8779"}
+2021-05-09 14:38:37： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 6097836d-1dab724d-727fa09c"}
+2021-05-09 14:39:38： 
+发送成功
+2021-05-09 14:39:44： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 609783af-6081346c-7eaf7e9c"}
+2021-05-09 14:48:02： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 609785a2-3abb91c2-66159d83"}
+2021-05-09 14:48:08： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 609785a7-1757bf3a-0a3ba7f9"}
+2021-05-09 14:55:23： 
+发送成功
+2021-05-09 14:55:34： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60978766-3133560f-5a76e323"}
+2021-05-09 15:06:13： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 609789e5-23d1293b-6545399d"}
+2021-05-09 15:06:30： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 609789f5-5b57fb85-3764f39b"}
+2021-05-09 15:06:33： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 609789f8-0eb30a1e-32a02243"}
+2021-05-09 15:32:05： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60978ff5-0815f665-48e8587a"}
+2021-05-09 15:32:56： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60979028-136d9020-4eeb37f2"}
+2021-05-09 15:37:05： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60979121-2d47ad31-2a00c946"}
+2021-05-09 15:38:06： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097915e-6ae5742a-6fbdd212"}
+2021-05-09 16:32:47： 
+发送成功
+2021-05-09 16:35:26： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60979ece-4319a64b-7d3ba125"}
+2021-05-09 16:36:00： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60979ef0-23747732-504311b9"}
+2021-05-09 16:37:01： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 60979f2d-55c95980-3a19a0eb"}
+2021-05-09 17:05:42： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097a5e6-79cc8569-1bf48d62"}
+2021-05-09 17:41:13： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097ae39-3bba655c-1d2a330f"}
+2021-05-09 17:41:40： 
+发送成功
+2021-05-09 17:41:45： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 6097ae59-143bbaa4-767bd9eb"}
+2021-05-09 17:41:48： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 6097ae5b-0d560998-503cabeb"}
+2021-05-09 18:15:15： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 6097b633-40c675a7-1d9e9c48"}
+2021-05-09 18:24:17： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097b851-743b0fd8-5cb70192"}
+2021-05-09 18:25:55： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097b8b3-7f878047-2cdc5db7"}
+2021-05-09 18:27:59： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097b92f-1e997565-4a341f3c"}
+2021-05-09 18:28:26： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097b94a-291d9224-4f53e341"}
+2021-05-09 18:28:32： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097b950-405a34f1-6d9ba3dd"}
+2021-05-09 18:29:34： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097b98e-1e622acd-774813c5"}
+2021-05-09 18:30:08： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097b9af-2e0717e5-391b6a76"}
+2021-05-09 18:34:51： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097bacb-102cb559-15e74e26"}
+2021-05-09 18:40:12： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097bc0b-51b5dc26-062125b2"}
+2021-05-09 18:41:20： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097bc50-78531ba3-5d4c6edd"}
+2021-05-09 18:43:58： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097bcee-6d7ebcc1-7966b9c5"}
+2021-05-09 18:45:21： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097bd41-7d4f7dd8-39a4ff98"}
+2021-05-09 18:45:40： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097bd54-079dc39a-5f3ab1e1"}
+2021-05-09 18:46:41： 
+发送成功
+2021-05-09 18:51:25： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097bead-4f649e84-3b781fd3"}
+2021-05-09 18:51:36： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097beb8-5e4b12e3-49e6e710"}
+2021-05-09 18:52:31： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097beef-3a70f1e5-6487cb46"}
+2021-05-09 18:55:27： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097bf9f-09691734-660b05a4"}
+2021-05-09 18:55:57： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097bfbd-40ffee1e-3ea31912"}
+2021-05-09 18:56:37： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097bfe5-4cb789c3-04f08b4b"}
+2021-05-09 18:57:20： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097c00f-3b7de2e7-5959e8ac"}
+2021-05-09 19:00:05： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097c0b5-0f10c4bf-1749447d"}
+2021-05-09 19:08:58： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097c2ca-63f80fff-2c76d786"}
+2021-05-09 19:09:09： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097c2d4-37f2a959-4e3691b4"}
+2021-05-09 19:11:56： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 6097c37b-4b0e1ceb-494b0a97"}
+2021-05-09 19:12:02： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 6097c381-5463f213-2fadd06f"}
+2021-05-09 19:12:55： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 6097c3b6-5347963f-594df4c7"}
+2021-05-09 19:14:49： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097c428-36520282-6fb97c44"}
+2021-05-09 19:18:01： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097c4e9-2d684103-6192d54c"}
+2021-05-09 19:18:30： 
+{"errcode":43101,"errmsg":"user refuse to accept the msg rid: 6097c506-7041404a-05556b3f"}
+2021-05-09 19:23:30： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097c632-0a9463f1-522cd44a"}
+2021-05-09 19:26:07： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097c6cf-32f58465-4a465ce4"}
+2021-05-09 19:29:57： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097c7b5-59c459d4-264cb6a4"}
+2021-05-09 19:30:25： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097c7d1-73138185-307c9597"}
+2021-05-09 19:46:16： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097cb88-30854bde-7842c392"}
+2021-05-09 19:56:09： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097cdd9-1b10d143-307689ec"}
+2021-05-09 20:09:28： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097d0f8-6f961605-1da2ad05"}
+2021-05-09 20:14:01： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097d209-10fc2c64-7b8a82cc"}
+2021-05-09 20:14:47： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097d237-15515d82-551a1e06"}
+2021-05-09 20:17:01： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097d2bd-44be753f-7b79400a"}
+2021-05-09 20:18:22： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097d30e-2f43f9cf-292741f0"}
+2021-05-09 20:19:44： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097d360-7b6f7efd-4ca75e1d"}
+2021-05-09 21:23:47： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097e263-051d7d72-052c665e"}
+2021-05-09 21:23:55： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097e26b-4a37b477-0c480db4"}
+2021-05-09 21:24:25： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097e289-30816ff5-65918761"}
+2021-05-09 21:37:37： 
+发送成功
+2021-05-09 22:36:38： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097f376-4471c524-6d62d248"}
+2021-05-09 22:37:36： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097f3b0-1f18c6fa-36c3f887"}
+2021-05-09 22:39:28： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097f420-6e6137d4-6527a88c"}
+2021-05-09 22:39:32： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097f424-5cec8ffe-3ad6a366"}
+2021-05-09 22:40:38： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097f466-4b9a7862-256ccad3"}
+2021-05-09 22:45:47： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097f59b-352e0bed-62e365d8"}
+2021-05-09 22:47:38： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097f609-7711afc2-6d64d9cf"}
+2021-05-09 22:49:40： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097f684-7d3cd5f5-09e568ff"}
+2021-05-09 22:50:32： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097f6b8-2f2539fe-0ad7e621"}
+2021-05-09 22:54:11： 
+发送成功
+2021-05-09 22:54:13： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097f794-546775f2-0032f55f"}
+2021-05-09 22:54:15： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097f796-738320cf-4919d114"}
+2021-05-09 22:54:18： 
+{"errcode":40003,"errmsg":"invalid openid rid: 6097f79a-65845a40-329a908c"}
+2021-05-10 10:02:14： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60989426-3ae9218c-1bb9f4b3"}
+2021-05-10 10:02:46： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60989446-200847fc-3d5545f0"}
+2021-05-10 10:03:04： 
+{"errcode":40003,"errmsg":"invalid openid rid: 60989458-1e0c1152-4f6a26b5"}
