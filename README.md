@@ -126,3 +126,16 @@ Both internal and external networks can be used
 Private Cloud Deployment
 All data is stored on your own servers
 You can use any company intranet computer as a server, with the configuration of Core I5.
+
+### 4 Contact us
+
+WhatsApp:+8618682009780
+
+Facebook:haoqiniao
+
+Telegram:haoqiniao
+
+微信/WeChat:18682009780
+
+QQ:1417249367
+
