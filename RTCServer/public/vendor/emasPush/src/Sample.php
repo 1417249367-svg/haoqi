@@ -36,7 +36,7 @@ class Sample {
      */
     public static function main($deviceList,$PlatForm,$FcName,$UserText){
 
-        $client = self::createClient("LTAI5tAGi9vWRVMQ6RLGpwBZ", "QMjWXQ1SIpTmFbG6P4T8N2cxJ98IJ4");
+        $client = self::createClient("LTAI5t6TLva1jp6MmHYLLA1Q", "bhXINf24ZVHrOzGUbYBfzxqkAtaKtj");
 //        $request = new PushRequest([
 //            "AppKey" => "335613771",
 //            "PushType" => "MESSAGE",

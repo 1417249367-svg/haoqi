@@ -481,7 +481,7 @@ function SendIGtNotification($UserID,$FcName,$MessengText)
 //	$mail->Username = SMTPACCOUNT;   // SMTP用户名  
 //	$mail->Password = SMTPPASSWORD;        // 为QQ邮箱SMTP的独立密码，即授权码
 //	$mail->From = SMTPACCOUNT;      // 发件人邮箱
-//	$mail->FromName =  "触点通RTC";  // 发件人
+//	$mail->FromName =  "好奇鸟RTC";  // 发件人
 //
 //	$mail->CharSet = "UTF-8";            // 这里指定字符集！
 //	$mail->Encoding = "base64";
